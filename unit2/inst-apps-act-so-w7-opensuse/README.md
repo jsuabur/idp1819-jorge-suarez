@@ -40,7 +40,7 @@ Una forma de comprobarlo, es verificar que el MD5 del fichero es el mismo que el
 Ahora comprobé su funcionamiento:
 
 * Busqué el fichero `wget.exe`:
-**`cd c:\Program Files (x86)\GnuWin32\bin`**
+>**cd c:\Program Files (x86)\GnuWin32\bin**
 
 ---
 
