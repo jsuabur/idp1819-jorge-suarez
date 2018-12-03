@@ -13,8 +13,12 @@ Instalé 3 características en el SO Windows:
 * Buscaminas
 * Solitario
 
+
+
 Para comprobar que se instalaron correctamente utilicé el comando:
 `telnet towel.bklinkenlights.nl`
+
+![Star Wars](/mnt/asir/home/idp1819-jorge-suarez/unit2/inst-apps-act-so-w7-opensuse/images/1.png)
 
 ### 1.2. Vamos a instalar aplicaciones
 
