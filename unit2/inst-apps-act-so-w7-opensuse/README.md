@@ -16,12 +16,19 @@ Instalé 3 características en el SO Windows:
 ![Telnet](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/telnet.png)
 ![Solitario-Buscaminas](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/busc-sol.png)
 
-
 Para comprobar que se instalaron correctamente utilicé el comando:
 `telnet towel.bklinkenlights.nl`
 
 ![Star Wars](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/StarWars.png)
 
+Comprobé el cliente telnet de la siguiente forma:
+
+1. Abrí una terminal y ejecuté `telnet 172.20.1.2 80`
+2. Escribí olleh
+
+> Con este comando se conecta con leela 172.20.1.2
+
+![Leela](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/olleh.png)
 
 ### 1.2. Vamos a instalar aplicaciones
 
@@ -29,6 +36,11 @@ Para empezar, descargué Wget para Windows de la página oficial.
 Una forma de comprobarlo, es verificar que el MD5 del fichero es el mismo que el de la página oficial. Para ello utilicé el programa `HashCalc`.
 
 ![MD5](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/fichero-md5.png)
+
+Ahora comprobé su funcionamiento:
+
+* Busqué el fichero `wget.exe`:
+**`cd c:\Program Files (x86)\GnuWin32\bin`**
 
 ---
 
