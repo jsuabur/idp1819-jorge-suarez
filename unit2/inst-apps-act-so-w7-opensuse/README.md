@@ -40,6 +40,7 @@ Una forma de comprobarlo, es verificar que el MD5 del fichero es el mismo que el
 Ahora comprobé su funcionamiento:
 
 * Busqué el fichero `wget.exe` desde la terminal de comandos: *`cd c:\Program Files (x86)\GnuWin32\bin`*
+*
 
 ---
 
@@ -47,13 +48,34 @@ Ahora comprobé su funcionamiento:
 
 ### 2.1. Instalar programas
 
+Descargué el programa GIT desde la web oficial (http://git-scm.com/)
+Abrí una consola cmd y entré en la carpeta en la que descargué el fichero.
+
 ### 2.2. Desinstalar programas
 
+
+
 ### 2.3. Gestor de paquetes
+
+Utilicé la aplicación Ninite para crear un paquete de instalación que contiene:
+
+* Firefox
+* VLC
+* Gimp
+* 7-Zip
+* Steam
+
+![Selección de apps](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/apps-ninite.png)
+
+Una vez hecho el paquete, lo instalé.
+
+https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/pack-ninite.png
 
 ---
 
 ## 3. Windows - Actualización del sistema
+
+Usar
 
 ---
 
@@ -61,7 +83,11 @@ Ahora comprobé su funcionamiento:
 
 ### 4.1. Instalar paquetes
 
+
+
 ### 4.2. Desinstalar paquetes
+
+
 
 ---
 
@@ -69,13 +95,23 @@ Ahora comprobé su funcionamiento:
 
 ### 5.1. Instalar software
 
+
+
 ### 5.2. Desinstalar software
+
+
 
 ### 5.3. Instalar programa Windows
 
+
+
 ### 5.4. Instalar programa desde rpm
 
+
+
 ### 5.5. Instalación desde el código fuente
+
+
 
 ---
 
