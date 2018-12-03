@@ -23,6 +23,12 @@ Para comprobar que se instalaron correctamente utilicé el comando:
 
 ### 1.2. Vamos a instalar aplicaciones
 
+Para empezar, descargué Wget para Windows de la página oficial.
+Una forma de comprobarlo, es verificar que el MD5 del fichero es el mismo que el de la página oficial. Para ello utilicé el programa `HashCalc`.
+
+![MD5](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/telnet.png)
+![Solitario-Buscaminas](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/md5.png)
+
 ---
 
 ## 2. Windows usando los comandos
