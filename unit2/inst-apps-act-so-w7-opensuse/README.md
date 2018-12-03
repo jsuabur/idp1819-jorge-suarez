@@ -16,10 +16,12 @@ Instalé 3 características en el SO Windows:
 ![Telnet](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/telnet.png)
 ![Solitario-Buscaminas](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/busc-sol.png)
 
+
 Para comprobar que se instalaron correctamente utilicé el comando:
 `telnet towel.bklinkenlights.nl`
 
 ![Star Wars](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/StarWars.png)
+
 
 ### 1.2. Vamos a instalar aplicaciones
 
