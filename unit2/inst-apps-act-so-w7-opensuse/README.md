@@ -69,7 +69,7 @@ Utilicé la aplicación Ninite para crear un paquete de instalación que contien
 
 Una vez hecho el paquete, lo instalé.
 
-https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/pack-ninite.png
+![Paquete Ninite](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/pack-ninite.png)
 
 ---
 
