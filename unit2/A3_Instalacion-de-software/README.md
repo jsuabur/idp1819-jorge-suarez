@@ -24,7 +24,7 @@ Para comprobar que se instalaron correctamente utilicé el comando:
 Comprobé el cliente telnet de la siguiente forma:
 
 1. Abrí una terminal y ejecuté `telnet 172.20.1.2 80`
-2. Escribí olleh
+2. Escribí `olleh`
 
 > Con este comando se conecta con leela 172.20.1.2
 
@@ -75,7 +75,7 @@ Una vez hecho el paquete, lo instalé.
 
 ## 3. Windows - Actualización del sistema
 
-Usar
+
 
 ---
 
