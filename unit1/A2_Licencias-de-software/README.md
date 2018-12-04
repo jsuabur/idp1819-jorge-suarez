@@ -13,8 +13,11 @@ Este tipo de licencias no permiten que el software sea modificado, desensamblado
 **Características permitidas**
 
 1. Instalación y uso. Se puede:
-* Instalar y usar una copia de Software en un equipo personal u otro dispositivo
-2.
+  * Instalar y usar una copia de Software en un equipo personal u otro dispositivo.
+  * Instalar una copia adicional del Software en un segundo dispositivo portátil para el uso exclusivo por parte del usuario principal de la primera copia del Software.
+
+2. Derechos alternativos de almacenamiento y uso en red. Se puede instalar una copia del Software en un dispositivo de almacenamiento de red, como un equipo de servidor, y permitir que un dispositivo de acceso, como un equipo personal, tenga acceso y utilice la copia con licencia del Software en una red privada. Se debe obtener una licencia del Software por cada dispositivo que tenga acceso y utilice el Software instalado en el dispositivo de almacenamiento de red.
+
 3.
 4.
 5.
