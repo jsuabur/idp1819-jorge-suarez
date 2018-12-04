@@ -88,9 +88,9 @@ Distribución orientada al escritorio y amigable con el usuario. Una de sus cara
 ![Manjaro Linux](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/manjaro.png)
 
 > Tipo de OS: Linux
-
+>
 > Basado en: Arch
-
+>
 > Origen: Austria, Alemania, Francia
 
 ### 2. Linux Mint
@@ -112,10 +112,8 @@ Elementary OS trae temas para iconos en GNOME, un navegador de red (Midori), apl
 ![Elementary OS](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/elementary.png)
 
 > Tipo de OS: Linux
-
-> Basado en: Debian, Ubuntu
-
-> Origen: EEUU
+Basado en: Debian, Ubuntu
+Origen: EEUU
 
 ### 4. Ubuntu
 
@@ -125,9 +123,7 @@ Ubuntu es un software basado en el Manifiesto de Ubuntu: “Que el software debe
 ![Ubuntu](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/ubuntu.png)
 
 > Tipo de OS: Linux
-
 > Basado en: Debian
-
 > Origen: Isla de Man
 
 ### 5. MX Linux
