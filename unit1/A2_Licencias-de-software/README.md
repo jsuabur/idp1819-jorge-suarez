@@ -100,9 +100,9 @@ La meta de Linux Mint incluye complementos del navegador y agrega un escritorio 
 ![Linux Mint](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/linux-mint.png)
 
 > Tipo de OS: Linux
-
+>
 > Basado en: Debian, Ubuntu (LTS)
-
+>
 > Origen: Irlanda
 
 ### 3. Elementary OS
@@ -112,8 +112,10 @@ Elementary OS trae temas para iconos en GNOME, un navegador de red (Midori), apl
 ![Elementary OS](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/elementary.png)
 
 > Tipo de OS: Linux
-Basado en: Debian, Ubuntu
-Origen: EEUU
+>
+> Basado en: Debian, Ubuntu
+>
+> Origen: EEUU
 
 ### 4. Ubuntu
 
@@ -123,7 +125,9 @@ Ubuntu es un software basado en el Manifiesto de Ubuntu: “Que el software debe
 ![Ubuntu](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/ubuntu.png)
 
 > Tipo de OS: Linux
+>
 > Basado en: Debian
+>
 > Origen: Isla de Man
 
 ### 5. MX Linux
@@ -134,9 +138,9 @@ MX Linux es un sistema operativo de medio peso diseñado para combinar un escrit
 ![MX Linux](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/mx-linux.png)
 
 > Tipo de OS: Linux
-
+>
 > Basado en: Debian (Stable), antiX
-
+>
 > Origen: Grecia, EEUU
 
 ---
