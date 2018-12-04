@@ -13,13 +13,13 @@ Instalé 3 características en el SO Windows:
 * Buscaminas
 * Solitario
 
-![Telnet](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/telnet.png)
-![Solitario-Buscaminas](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/busc-sol.png)
+![Telnet](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/unit2/A3_Instalacion-de-software/images/telnet.png)
+![Solitario-Buscaminas](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/unit2/A3_Instalacion-de-software/images/images/busc-sol.png)
 
 Para comprobar que se instalaron correctamente utilicé el comando:
 `telnet towel.bklinkenlights.nl`
 
-![Star Wars](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/StarWars.png)
+![Star Wars](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/unit2/A3_Instalacion-de-software/images/StarWars.png)
 
 Comprobé el cliente telnet de la siguiente forma:
 
@@ -28,14 +28,14 @@ Comprobé el cliente telnet de la siguiente forma:
 
 > Con este comando se conecta con leela 172.20.1.2
 
-![Leela](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/olleh.png)
+![Leela](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/unit2/A3_Instalacion-de-software/images/olleh.png)
 
 ### 1.2. Vamos a instalar aplicaciones
 
 Para empezar, descargué Wget para Windows de la página oficial.
 Una forma de comprobarlo, es verificar que el MD5 del fichero es el mismo que el de la página oficial. Para ello utilicé el programa `HashCalc`.
 
-![MD5](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/fichero-md5.png)
+![MD5](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/unit2/A3_Instalacion-de-software/images/fichero-md5.png)
 
 Ahora comprobé su funcionamiento:
 
@@ -65,11 +65,11 @@ Utilicé la aplicación Ninite para crear un paquete de instalación que contien
 * 7-Zip
 * Steam
 
-![Selección de apps](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/apps-ninite.png)
+![Selección de apps](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/unit2/A3_Instalacion-de-software/images/apps-ninite.png)
 
 Una vez hecho el paquete, lo instalé.
 
-![Paquete Ninite](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/inst-apps-act-so-w7-opensuse/images/pack-ninite.png)
+![Paquete Ninite](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/unit2/A3_Instalacion-de-software/images/pack-ninite.png)
 
 ---
 
