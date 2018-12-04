@@ -194,3 +194,9 @@ Consulté la lista `Games on GitHub` y dentro de la sección `Native` elegí el 
 ---
 
 ## 6. GNU/Linux actualización del sistema
+
+Entré en la consola como superusuario y ejecuté:
+* `zypper refresh` para actualizar el catálogo de productos software disponible.
+* `zypper update` para actualizar todas las aplicaciones del sistema.
+
+![Zypper Refresh/Update](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/zypper-r-u.png)
