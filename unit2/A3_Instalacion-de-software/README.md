@@ -148,7 +148,7 @@ Tras esto comprobé que se desinstaló correctamente con los siguientes pasos:
 
 * Busqué el programa en el sistema de ficheros con el comando `whereis aisleriot`
 
-![No whereis](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/no-whereis-app.png)
+![No whereis](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/no-whereis-apps.png)
 
 
 
