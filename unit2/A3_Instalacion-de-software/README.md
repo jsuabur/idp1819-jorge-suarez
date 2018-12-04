@@ -154,16 +154,43 @@ Tras esto comprobé que se desinstaló correctamente con los siguientes pasos:
 
 ### 5.3. Instalar programa Windows
 
+Instalé el emulador Windows `wine`
+Después, descargué `Johnny Simulator` en GNU/Linux y lo instalé usando `wine`.
 
+![Wine Johnny](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/johnny.png)
 
 ### 5.4. Instalar programa desde rpm
 
+Para empezar, comprobé que el programa `atom` no estaba disponible en los repositorios.
 
+![Atom](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/atom-repos.png)
+
+Busqué en la web de `atom.io` el instalador para openSUSE y descargué el fichero `.rpm`.
+
+![Descarga rpm](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/atom-rpm.png)
+
+Instalé el programa con el comando `rpm -i atom.x86_64.rpm`
+
+![Instalar atom](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/inst-atom.png)
+
+Por si acaso requiera alguna dependencia, la instalé manualmente con:
+* `zypper search lsb*` para buscar todos los paquetes lsb algo
+* `zypper install lsb` para instalar el paquete lsb
+
+![Paquetes lsb](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/lsb-atom.png)
+
+Para comprobar que se instaló el paquete utilice los comandos:
+* `rpm -q atom`
+* `atom`
+
+![Comprobar Atom](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/comp-atom.png)
 
 ### 5.5. Instalación desde el código fuente
 
+Consulté la lista `Games on GitHub` y dentro de la sección `Native` elegí el programa **Space Shooter**.
 
+![Space Shooter](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/space-shooter.png)
 
 ---
 
-## 6. GNU/Linux Actualización del sistema
+## 6. GNU/Linux actualización del sistema
