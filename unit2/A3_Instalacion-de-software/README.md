@@ -75,7 +75,13 @@ Una vez hecho el paquete, lo instalé.
 
 ## 3. Windows - Actualización del sistema
 
+Instalé un paquete de actualizaciones para Windows7 para que tardaran menos tiempo.
+Tras esto, reinicié Windows Update y descargué el paquete `KB3102810x64`
+Reinicié la máquina, cy comprobé que Windows Update esta desactivado.
 
+![Windows Update](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/winupd-desact.png)
+
+Consulté las actualizaciones pendientes y elegí 3 para actualizar.
 
 ---
 
@@ -83,11 +89,31 @@ Una vez hecho el paquete, lo instalé.
 
 ### 4.1. Instalar paquetes
 
+El gestor de paquetes es un programa para instalar/desinstalar software como un AppStore.
 
+Inicié el gestor de paquetes e instalé los siguientes programas:
+* geany
+* git
+* gkrellm
+* gtk-recordmydesktop
+
+![Instalar Yast](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/inst-yast.png)
+
+Comprobé dos programas para ver si se instalaron bien:
+
+**Geany**
+
+![Geany](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/geany-os.png)
+
+**Gtk-recordmydesktop**
+
+![Gtk-recordmydesktop](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/gtk-os.png)
 
 ### 4.2. Desinstalar paquetes
 
+Desinstalé `gtk-recordmydesktop` con el gestor de paquetes y lo comprobé.
 
+![Gtk-recordmydesktop Desinstalado](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/desinst-yast.png)
 
 ---
 
@@ -95,9 +121,34 @@ Una vez hecho el paquete, lo instalé.
 
 ### 5.1. Instalar software
 
+Ahora por consola como superusuario, instalé `Aisleriot Solitaire` con el comando `zypper install aisleriot`
 
+![Aisleriot Solitaire](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/zypper-inst.png)
+
+Tras esto comprobé que se instaló correctamente el programa:
+* `zypper search aisleriot`
+
+![zypper search](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/zypper-search.png)
+
+* Ejecuté el programa y comprobé su funcionamiento
+* Busqué el programa en el sistema de ficheros con el comando `whereis aisleriot`
+
+![whereis aisleriot](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/whereis-app.png)
 
 ### 5.2. Desinstalar software
+
+Desinstalé el programa con `zypper remove aisleriot`
+
+![remove apps](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/remove-apps.png)
+
+Tras esto comprobé que se desinstaló correctamente con los siguientes pasos:
+* `zypper se aisleriot`
+
+![zypper se](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/zypper-se.png)
+
+* Busqué el programa en el sistema de ficheros con el comando `whereis aisleriot`
+
+![No whereis](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/no-whereis-app.png)
 
 
 
