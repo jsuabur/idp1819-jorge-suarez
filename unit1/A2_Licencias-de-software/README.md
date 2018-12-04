@@ -77,35 +77,78 @@ Su propósito es doble: declarar que el software cubierto por esta licencia es l
 
 * Si como consecuencia de una resolución judicial o de una alegación de infracción de patente o por cualquier otra razón (no limitada a asuntos relacionados con patentes) se le imponen condiciones (ya sea por mandato judicial, por acuerdo o por cualquier otra causa) que contradigan las condiciones de esta Licencia, ello no le exime de cumplir las condiciones de esta Licencia. Si no puede realizar distribuciones de forma que se satisfagan simultáneamente sus obligaciones bajo esta licencia y cualquier otra obligación pertinente entonces, como consecuencia, no puede distribuir el Programa de ninguna forma. Por ejemplo, si una patente no permite la redistribución libre de derechos de autor del Programa por parte de todos aquellos que reciban copias directa o indirectamente a través de usted, entonces la única forma en que podría satisfacer tanto esa condición como esta Licencia sería evitar completamente la distribución del Programa.
 
+---
+
 ## 2. Distribuciones
 
 ### 1. Manjaro Linux
 
+Distribución orientada al escritorio y amigable con el usuario. Una de sus características más destacadas que la instalación es muy intuitiva.
+
 ![Manjaro Linux](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/manjaro.png)
+
+> Tipo de OS: Linux
+
+> Basado en: Arch
+
+> Origen: Austria, Alemania, Francia
 
 ### 2. Linux Mint
 
+La meta de Linux Mint incluye complementos del navegador y agrega un escritorio y varias herramientas de configuración.
+
 ![Linux Mint](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/linux-mint.png)
+
+> Tipo de OS: Linux
+
+> Basado en: Debian, Ubuntu (LTS)
+
+> Origen: Irlanda
 
 ### 3. Elementary OS
 
+Elementary OS trae temas para iconos en GNOME, un navegador de red (Midori), aplicaciones desarrolladas por ellos mismos, como Dexter, una agenda, un cliente de correo (Postier) y un gestor simple de archivos (Nautilus Elementary).
+
 ![Elementary OS](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/elementary.png)
+
+> Tipo de OS: Linux
+
+> Basado en: Debian, Ubuntu
+
+> Origen: EEUU
 
 ### 4. Ubuntu
 
+“Ubuntu” es una antigua palabra africana que significa “Humanidad para los otros”.
+Ubuntu es un software basado en el Manifiesto de Ubuntu: “Que el software debe estar disponible libre de cargos, que las herramientas informáticas deben ser usables por gente en su propia lengua y a pesar de cualquier discapacidad, así como el que la gente debe poseer la libertad de personalizar y modificar sus programas en cualquier forma que le parezca”.
+
 ![Ubuntu](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/ubuntu.png)
+
+> Tipo de OS: Linux
+
+> Basado en: Debian
+
+> Origen: Isla de Man
 
 ### 5. MX Linux
 
+Es un proyecto entre las comunidades de antiX y el antiguo MEPIS.
+MX Linux es un sistema operativo de medio peso diseñado para combinar un escritorio elegante y eficiente con una configuración simple, alta estabilidad, un espacio de tamaño medio y desempeño sólido.
+
 ![MX Linux](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A2_Licencias-de-software/images/mx-linux.png)
+
 > Tipo de OS: Linux
-Basado en: Debian (Stable), antiX
-Origen: Grecia, EEUU
+
+> Basado en: Debian (Stable), antiX
+
+> Origen: Grecia, EEUU
+
+---
 
 ## 3. Sumario
 
-* `Debian (Stable)` Esta versión de Debian es la versión oficial más reciente de Debian.
-* `AntiX` Es una distribución de Linux construida directamente en Debian Stable.
-* `MEPIS` Distribución de Linux basada en Debian.
-* `Ubuntu(LTS)` Es una versión de Ubuntu con soporte técnico extendido, 5 años en las dos versiones (Escritorio y Servidor).
-* `Arch` Es una distribución orientada a usuarios avanzados.
+* **`Debian (Stable)`** Esta versión de Debian es la versión oficial más reciente de Debian.
+* **`AntiX`** Es una distribución de Linux construida directamente en Debian Stable.
+* **`MEPIS`** Distribución de Linux basada en Debian.
+* **`Ubuntu(LTS)`** Es una versión de Ubuntu con soporte técnico extendido, 5 años en las dos versiones (Escritorio y Servidor).
+* **`Arch`** Es una distribución orientada a usuarios avanzados.
