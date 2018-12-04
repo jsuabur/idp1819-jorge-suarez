@@ -18,8 +18,12 @@ Este tipo de licencias no permiten que el software sea modificado, desensamblado
 
 * Derechos alternativos de almacenamiento y uso en red. Se puede instalar una copia del Software en un dispositivo de almacenamiento de red, como un equipo de servidor, y permitir que un dispositivo de acceso, como un equipo personal, tenga acceso y utilice la copia con licencia del Software en una red privada. Se debe obtener una licencia del Software por cada dispositivo que tenga acceso y utilice el Software instalado en el dispositivo de almacenamiento de red.
 
-*
+* Se puede usar tecnologías de acceso remoto, como las características de Acceso remoto de Microsoft Windows o NetMeeting, para el acceso y uso de su copia con licencia del Software, siempre que sólo el usuario principal del dispositivo que aloja la sesión de escritorio remoto tenga acceso y utilice el Software con un dispositivo de acceso remoto.
 
-*
+* Concesión de licencia para asistencia remota. Se puede permitir a cualquier dispositivo el acceso y uso de su copia con licencia del Software con el único propósito de proporcionar servicios de mantenimiento y soporte técnico.
 
-*
+* Concesión de licencia para Elementos multimedia. El Software puede incluir determinadas fotografías, imágenes prediseñadas, formas, animaciones, sonidos, clips de música y de vídeo que se identifican en el Software para su uso (colectivamente, “Elementos multimedia”). Se puede copiar y modificar estos Elementos multimedia, y otorgar licencia de ellos, mostrarlos y distribuirlos junto con sus modificaciones como parte de sus productos y servicios de software, incluyendo sus sitios Web.
+
+----
+
+**Características prohibidas**
