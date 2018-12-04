@@ -38,8 +38,6 @@ Este tipo de licencias no permiten que el software sea modificado, desensamblado
 
 * No se podrá copiar ni publicar las plantillas disponibles mediante los servicios basados en Internet en ningún equipo de red ni difundirlas en ningún medio.
 
----
-
 ### GPL - General Public License
 
 La Licencia Pública General de GNU es una licencia de derecho de autor ampliamente usada en el mundo software libre y código abierto, y garantiza a los usuarios finales la libertad de usar, estudiar, compartir y modificar el software.
