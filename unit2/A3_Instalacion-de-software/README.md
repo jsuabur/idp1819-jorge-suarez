@@ -19,7 +19,7 @@ Instalé 3 características en el SO Windows:
 Para comprobar que se instalaron correctamente utilicé el comando:
 `telnet towel.bklinkenlights.nl`
 
-![Star Wars](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/unit2/A3_Instalacion-de-software/images/StarWars.png)
+![Star Wars](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/StarWars.png)
 
 Comprobé el cliente telnet de la siguiente forma:
 
