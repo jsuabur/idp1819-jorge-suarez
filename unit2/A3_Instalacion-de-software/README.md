@@ -53,7 +53,12 @@ Abrí una consola cmd y entré en la carpeta en la que descargué el fichero.
 
 ### 2.2. Desinstalar programas
 
+A continuación desinstalé `Gedit Text Editor (64 bit)` por comandos, usando la consola `wmic`.
+* Abrí una consola PowerShell como Administrador y ejecuté `wmic`
+* Localicé los programas MSI instalados con `product get name`
+* Tras esto, lo desinstalé con el comando `product where name="Gedit Text Editor (64 bit)"` y lo comprobé.
 
+![Desinstalar Gedit](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/wmic.png)
 
 ### 2.3. Gestor de paquetes
 
