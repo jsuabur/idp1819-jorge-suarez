@@ -37,11 +37,6 @@ Una forma de comprobarlo, es verificar que el MD5 del fichero es el mismo que el
 
 ![MD5](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/fichero-md5.png)
 
-Ahora comprobé su funcionamiento:
-
-* Busqué el fichero `wget.exe` desde la terminal de comandos: *`cd c:\Program Files (x86)\GnuWin32\bin`*
-*
-
 ---
 
 ## 2. Windows usando los comandos
