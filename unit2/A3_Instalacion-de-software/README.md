@@ -189,7 +189,7 @@ Para comprobar que se instaló el paquete utilice los comandos:
 
 Consulté la lista `Games on GitHub` y dentro de la sección `Native` elegí el programa **Space Shooter**.
 
-![Space Shooter](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/space-shooter.png)
+![Space Shooter](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit2/A3_Instalacion-de-software/images/spaceshooter.png)
 
 ---
 
