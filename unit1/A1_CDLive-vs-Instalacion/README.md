@@ -7,37 +7,41 @@
 
 Descargué la ISO Live del sistema operativo Knoppix.
 
-![Knoppix7](https://github.com/jsuabur/tree/master/idp1819-jorge-suarez/unit/A1_CDLive-vs-Instalacion/images/knoppix.png)
+![Knoppix](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A1_CDLive-vs-Instalacion/images/knoppix.png)
 
 Creé una máquina virtual sin disco duro llamada “Knoppix”.
 
-![Sin Disco Duro Knoppix](https://)
+![Sin Disco Duro Knoppix](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A1_CDLive-vs-Instalacion/images/discoduro.png)
 
-![Knoppix VirtualBox](https://)
+![Knoppix VirtualBox](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A1_CDLive-vs-Instalacion/images/virtualbox-knoppix.png)
 
 Una vez hecho esto, inicié el SO en modo Live y en español.
 
-![Inicio Knoppix](https://)
+![Inicio Knoppix](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A1_CDLive-vs-Instalacion/images/iniciar-knoppix.png)
 
 Una vez probado el sistema, abrí un terminal y puse los siguientes comandos:
 * `date`
 * `ip a`
 * `sudo blkid`
 
-![Comandos Knoppix](https://)
+![Comandos Knoppix](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A1_CDLive-vs-Instalacion/images/comandos-knoppix.png)
 
 Después de introducir los comandos anteriores, creé unos ficheros y pude comprobar que al reiniciar la máquina los archivos no se guardaron.
 
 **Antes de reiniciar**
 
-![Antes de reiniciar Knoppix](https://)
+![Antes de reiniciar Knoppix](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A1_CDLive-vs-Instalacion/images/antes-reinicio-k.png)
 
 **Después de reiniciar**
 
-![Despues de reiniciar Knoppix](https://)
+![Despues de reiniciar Knoppix](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/unit1/A1_CDLive-vs-Instalacion/images/despues-reinicio-k.png)
 
-## Windows7
+---
+
+## 2. Windows7
 
 
 
-## GNU/Linux OpenSUSE
+---
+
+## 3. GNU/Linux OpenSUSE
