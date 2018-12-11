@@ -51,14 +51,41 @@ Con este inicio se ocultan los nombres de todos los usuarios. Para hacerlo, segu
 
 ## SO GNU/Linux
 
-
-
 ### 2.1. Ocultar usuarios
 
+Modifiqué el sistema para que los usuarios `jedi1` y `sith1` no aparezcan en la ventana de inicio del sistema.
+* Ya que el sistema usa AccountsService, modifiqué el fichero de cada usuario de la siguiente forma:
+  * `/var/lib/AccountService/users/jedi1`
+    > [User]
+    >
+    > System Account=true
 
+  * `/var/lib/AccountService/users/sith1`
+    > [User]
+    >
+    > System Account=true
+
+![Ocultar Usuarios](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit2/A4_Claves-y-ocultacion/images/os-ocult-us.png)
 
 ### 2.2. Claves seguras
+Para empezar, configuré mi usuario y los usuarios `jedi1` y `jedi2` en el fichero `/etc/sudoers` para obtener privilegios administrativos.
 
-
+Modifiqué las claves de los usuarios de la siguiente forma:
+* `sith1`: 1234
+* `sith2`: casa
+* `jedi1`: frodoHOBBITbolson
+* `jedi2`: gandalfELGRIS
 
 ### 2.3. Desactivar el inicio gráfico
+
+Por último desactivé el inicio gráfico al inicio.
+* Fue a `Administración de Servicios` dentro de `Yast`
+* Una vez ahí, cambié `Estado predeterminado` de `Graphical Interface` a `Multi-User System`
+
+![Multiusuario](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit2/A4_Claves-y-ocultacion/images/multiusuario.png)
+
+Ahora restauré el inicio gráfico automático.
+* Ejecuté `yast`
+* Y una vez dentro cambié `Multi-User System` por `Graphical Interface`
+
+![](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit2/A4_Claves-y-ocultacion/images/yast-comando.png)
