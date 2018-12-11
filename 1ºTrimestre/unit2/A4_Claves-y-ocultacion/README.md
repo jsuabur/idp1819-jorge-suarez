@@ -21,7 +21,7 @@ Tras ejecutarlo entre en la carpeta  `HKLM\SOFTWARE\Microsoft\Windows NT\Current
   * `jedi1`
   * `jedi2`
 
-![UserList](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit2/A4_Claves-y-ocultacion/imagesUserList.png)
+![UserList](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit2/A4_Claves-y-ocultacion/images/UserList.png)
 
 Para acabar con la parte de ocultación de Windows, reinicie la MV y comprobé satisfactoriamente que se ocultaron los usuarios `jedi1` y `jedi2`.
 
