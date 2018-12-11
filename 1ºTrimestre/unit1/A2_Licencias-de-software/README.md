@@ -10,7 +10,7 @@
 Licencias en las que los propietarios establecen los derechos de uso, distribución, redistribución, copia, modificación, cesión y en general cualquier otra consideración que se estime necesaria.
 Este tipo de licencias no permiten que el software sea modificado, desensamblado, copiado o distribuido de formas no especificadas en la propia licencia, regula el número de copias que pueden ser instaladas.
 
-![CLUF](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/cluf.png)
+![CLUF](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/cluf.png)
 
 **Características permitidas**
 
@@ -43,7 +43,7 @@ Este tipo de licencias no permiten que el software sea modificado, desensamblado
 La Licencia Pública General de GNU es una licencia de derecho de autor ampliamente usada en el mundo software libre y código abierto, y garantiza a los usuarios finales la libertad de usar, estudiar, compartir y modificar el software.
 Su propósito es doble: declarar que el software cubierto por esta licencia es libre, y protegerlo de intentos de apropiación que restrinjan esas libertades a nuevos usuarios cada vez que la obra es distribuida, modificada o ampliada.
 
-![GPL](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/gpl.png)
+![GPL](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/gpl.png)
 
 **Características permitidas**
 
@@ -83,7 +83,7 @@ Su propósito es doble: declarar que el software cubierto por esta licencia es l
 
 Distribución orientada al escritorio y amigable con el usuario. Una de sus características más destacadas que la instalación es muy intuitiva.
 
-![Manjaro Linux](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/manjaro.png)
+![Manjaro Linux](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/manjaro.png)
 
 > Tipo de OS: Linux
 >
@@ -95,7 +95,7 @@ Distribución orientada al escritorio y amigable con el usuario. Una de sus cara
 
 La meta de Linux Mint incluye complementos del navegador y agrega un escritorio y varias herramientas de configuración.
 
-![Linux Mint](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/linux-mint.png)
+![Linux Mint](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/linux-mint.png)
 
 > Tipo de OS: Linux
 >
@@ -107,7 +107,7 @@ La meta de Linux Mint incluye complementos del navegador y agrega un escritorio 
 
 Elementary OS trae temas para iconos en GNOME, un navegador de red (Midori), aplicaciones desarrolladas por ellos mismos, como Dexter, una agenda, un cliente de correo (Postier) y un gestor simple de archivos (Nautilus Elementary).
 
-![Elementary OS](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/elementary.png)
+![Elementary OS](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/elementary.png)
 
 > Tipo de OS: Linux
 >
@@ -120,7 +120,7 @@ Elementary OS trae temas para iconos en GNOME, un navegador de red (Midori), apl
 “Ubuntu” es una antigua palabra africana que significa “Humanidad para los otros”.
 Ubuntu es un software basado en el Manifiesto de Ubuntu: “Que el software debe estar disponible libre de cargos, que las herramientas informáticas deben ser usables por gente en su propia lengua y a pesar de cualquier discapacidad, así como el que la gente debe poseer la libertad de personalizar y modificar sus programas en cualquier forma que le parezca”.
 
-![Ubuntu](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/ubuntu.png)
+![Ubuntu](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/ubuntu.png)
 
 > Tipo de OS: Linux
 >
@@ -133,7 +133,7 @@ Ubuntu es un software basado en el Manifiesto de Ubuntu: “Que el software debe
 Es un proyecto entre las comunidades de antiX y el antiguo MEPIS.
 MX Linux es un sistema operativo de medio peso diseñado para combinar un escritorio elegante y eficiente con una configuración simple, alta estabilidad, un espacio de tamaño medio y desempeño sólido.
 
-![MX Linux](https://github.com/jsuabur/idp1819-jorge-suarez/tree/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/mx-linux.png)
+![MX Linux](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit1/A2_Licencias-de-software/images/mx-linux.png)
 
 > Tipo de OS: Linux
 >
