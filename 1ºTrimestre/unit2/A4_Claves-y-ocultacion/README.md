@@ -29,7 +29,19 @@ Para acabar con la parte de ocultación de Windows, reinicie la MV y comprobé s
 
 ### 1.2. Modo de incio de sesión seguro
 
+Con este inicio se ocultan los nombres de todos los usuarios. Para hacerlo, seguí los siguientes pasos:
+* Inicié una consola CMD como administrador.
+* Ejecuté `secpol.msc`
 
+![Comando secpol.msc](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit2/A4_Claves-y-ocultacion/images/secpol.png)
+
+* Fui a `Directivas locales > Seguridad` y habilité el `Inicio de sesión interactivo: No mostrar el último nombre`
+
+![No mostrar el ultimo nombre](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit2/A4_Claves-y-ocultacion/images/no-mostrar.png)
+
+* En este tipo de inicio de sesión, debemos escribir nombre de usuario y su clave para iniciar sesión como he podido comprobar.
+
+![Comprobar Usuario/Clave](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/1%C2%BATrimestre/unit2/A4_Claves-y-ocultacion/images/comp-no-mostrar.png)
 
 ### 1.3. Claves seguras
 
