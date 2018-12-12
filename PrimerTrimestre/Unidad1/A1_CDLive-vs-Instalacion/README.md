@@ -9,7 +9,7 @@ Descargué la ISO Live del sistema operativo Knoppix.
 
 ![Knoppix](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/knoppix.png)
 
-Creé una máquina virtual sin disco duro llamada “Knoppix”.
+Creé una máquina virtual sin disco duro llamada `Knoppix`.
 
 ![Sin Disco Duro Knoppix](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/discoduro.png)
 
@@ -40,8 +40,47 @@ Después de introducir los comandos anteriores, creé unos ficheros y pude compr
 
 ## 2. Windows7
 
+Descargué la ISO de `Windows7 enterprise sp1 x64` y creé una MV con disco duro.
 
+![Windows MV](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/windows-mv.png)
+
+Tras esto, inicié una instalación por defecto de Windows.
+
+![](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/windows-mv.png)
+
+Para personalizarla, introduje lo siguiente:
+* Nombre de usuario: `jorge`
+* Nombre del equipo: `suarez`
+
+![Personalizar Windows](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/pers-win.png)
+
+Al terminar la instalación ejecuté una terminal `PowerShell` y capturé los siguientes comandos:
+
+* `date`
+* `ipconfig`
+* `hostname`
+
+![Comandos Windows](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/ip-win.png)
 
 ---
 
 ## 3. GNU/Linux OpenSUSE
+
+Descargué la ISO `openSUSE-Leap-42.3-DVD-x86  64.iso` y creé una MV con disco duro de 8GB.
+
+![OpenSUSE MV](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/opensuse.png)
+
+![Instalación OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/inst-os.png)
+
+Tras esto, realicé una instalación por defecto cambiando:
+* Nombre de usuario: `jorge`
+* Nombre del equipo/host: `suarez`
+* Nombre dominio: `burgos`
+
+Tras terminar la instalación del sistema operativo, ejecuté el programa `Yast`. Una vez dentro, fui a `Nombre de Host/DNS` que está dentro de `Ajustes de red`:		
+* Escribí el nombre del host/máquina `suarez`
+* Escribí el nombre del dominio `burgos`
+* Deshabilité la opción `Modificar nombre...`
+* Activé `Asignar nombre...`
+
+![Host OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/host-os.png)

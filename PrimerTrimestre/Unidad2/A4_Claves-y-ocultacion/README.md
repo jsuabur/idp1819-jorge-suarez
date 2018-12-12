@@ -88,7 +88,9 @@ Tras esto, inicié la máquina con un CD-Live (knoppix).
 
 ![C3po](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/c3po.png)
 
+Después, reinicie la Máquina Virtual sin el CD-Live de Knoppix y comprobé que se puede iniciar sesión en los usuarios `jedi2` y `sith2` con la clave `123456`.
 
+![Jedi2 y Sith2](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/funciona.png)
 
 ### 2.3. Desactivar el inicio gráfico
 
