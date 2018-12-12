@@ -67,7 +67,7 @@ Modifiqué el sistema para que los usuarios `jedi1` y `sith1` no aparezcan en la
 
 ![Ocultar Usuarios](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/os-ocult-us.png)
 
-![Ocultar usuarios gráfico](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Clavesyocultacion/images(os-ocultus-gr.png)
+![Ocultar usuarios gráfico](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Clavesyocultacion/images/os-ocultus-gr.png)
 
 ### 2.2. Claves seguras
 Para empezar, configuré mi usuario y los usuarios `jedi1` y `jedi2` en el fichero `/etc/sudoers` para obtener privilegios administrativos.
@@ -81,6 +81,7 @@ Modifiqué las claves de los usuarios de la siguiente forma:
 * `jedi2`: gandalfELGRIS
 
 Tras esto, inicié la máquina con un CD-Live (knoppix).
+
 
 
 ### 2.3. Desactivar el inicio gráfico
