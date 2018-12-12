@@ -67,12 +67,12 @@ Modifiqué el sistema para que los usuarios `jedi1` y `sith1` no aparezcan en la
 
 ![Ocultar Usuarios](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/os-ocult-us.png)
 
-![Ocultar usuarios gráfico](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Clavesyocultacion/images/os-ocultus-gr.png)
+![Ocultar usuarios gráfico](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/os-ocultus-gr.png)
 
 ### 2.2. Claves seguras
 Para empezar, configuré mi usuario y los usuarios `jedi1` y `jedi2` en el fichero `/etc/sudoers` para obtener privilegios administrativos.
 
-![Sudoers](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Clavesyocultacion/images/sudoers.png)
+![Sudoers](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/sudoers.png)
 
 Modifiqué las claves de los usuarios de la siguiente forma:
 * `sith1`: 1234
@@ -81,6 +81,12 @@ Modifiqué las claves de los usuarios de la siguiente forma:
 * `jedi2`: gandalfELGRIS
 
 Tras esto, inicié la máquina con un CD-Live (knoppix).
+* Monté la partición del disco duro que corresponde al SO GNU/Linux.
+* Hice una copia de seguridad del fichero de claves con el comando: `cp /mnt/etc/shadow /mnt/etc/shadow.bak`.
+* Creé el usuario `c3po` en knoppix con la clave `123456`.
+* Copié la clave del usuario `c3po` del fichero `/etc/shadow` a los usuarios `jedi2` y `sith2` del fichero `/mnt/etc/shadow`.
+
+![C3po](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/c3po.png)
 
 
 
