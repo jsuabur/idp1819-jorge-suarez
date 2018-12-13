@@ -45,6 +45,18 @@ Con este inicio se ocultan los nombres de todos los usuarios. Para hacerlo, segu
 
 ### 1.3. Claves seguras
 
+Modifiqué las claves de los usuarios de la siguiente forma:
+* `sith1`: 1234
+* `sith2`: casa
+* `jedi1`: frodoHOBBITbolson
+* `jedi2`: gandalfELGRIS
+* `jorge`: ******
+* `administrador`: DNI
+
+Tras esto, descargué la iso OphCrack para Windows7.
+
+![iso OphCrack](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4A4_Claves-y-ocultacion/images/ophcrack.png)
+
 
 
 ---
