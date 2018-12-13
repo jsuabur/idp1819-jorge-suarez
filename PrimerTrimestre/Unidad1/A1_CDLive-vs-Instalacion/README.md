@@ -84,3 +84,14 @@ Tras terminar la instalación del sistema operativo, ejecuté el programa `Yast`
 * Activé `Asignar nombre...`
 
 ![Host OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/host-os.png)
+
+Para finalizar, abrí una terminar y capturé la salida de los siguientes comandos:
+* `hostname -f`
+* `date`
+* `ip a`
+* `sudo blkid`
+* `sudo fdisk -l`
+
+![Comandos OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/cons1-os.png)
+
+![Comandos OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad1/A1_CDLive-vs-Instalacion/images/cons2-os.png)
