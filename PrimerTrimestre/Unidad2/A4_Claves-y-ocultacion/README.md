@@ -53,19 +53,28 @@ Modifiqué las claves de los usuarios de la siguiente forma:
 * `jorge`: ******
 * `administrador`: DNI
 
-Tras esto, descargué la iso OphCrack para Windows7.
+Tras esto, descargué la iso `OphCrack` para Windows7.
 
-![iso OphCrack](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4A4_Claves-y-ocultacion/images/ophcrack.png)
+![iso OphCrack](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/ophcrack.png)
 
+Inicié la máquina de Windows7 con la iso `OphCrack`.
 
+![Iniciar OphCrack](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/ini-oph.png)
+
+Tras esto, espere un poco a que el programa ejecutara su análisis de las claves y comprobé que las contraseñas de `sith1` y `sith2` (las simples) están visibles (descodificadas).
+
+![Contraseñas OphCrack](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/conoph.png)
 
 ---
 
-## SO GNU/Linux
+## 2. SO GNU/Linux
 
 ### 2.1. Ocultar usuarios
 
 Modifiqué el sistema para que los usuarios `jedi1` y `sith1` no aparezcan en la ventana de inicio del sistema.
+
+**Escritorio XFCE**
+
 * Ya que el sistema usa AccountsService, modifiqué el fichero de cada usuario de la siguiente forma:
   * `/var/lib/AccountService/users/jedi1`
     > [User]
