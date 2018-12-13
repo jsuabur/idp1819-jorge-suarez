@@ -63,7 +63,7 @@ Inicié la máquina de Windows7 con la iso `OphCrack`.
 
 Tras esto, espere un poco a que el programa ejecutara su análisis de las claves y comprobé que las contraseñas de `sith1` y `sith2` (las simples) están visibles (descodificadas).
 
-![Contraseñas OphCrack](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/conoph.png)
+![Contraseñas OphCrack](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion/images/con-oph.png)
 
 ---
 
