@@ -4,3 +4,9 @@ author: "Jorge Suárez"
 date: "16/12/2018"
 output: html_document
 ---
+
+```{r}
+set.seed(1234)
+library(ggplot2)
+library(lattice)
+```
