@@ -1,0 +1,6 @@
+---
+title: "Documento inicial **R Markdown**"
+author: "Jorge Suárez"
+date: "16/12/2018"
+output: html_document
+---
