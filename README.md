@@ -14,11 +14,12 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
     - A1 - CD Live vs Instalación
     - A2 - Licencias de software
     - A3 - Instalación personalizada con Debian
-    - A5 - Instalación dual `EN DESARROLLO`
+    - A5 - Instalación dual
     - A7 - Boot Loader `EN DESARROLLO`
   - Unidad2
     - A1 - Usuarios y permisos `EN DESARROLLO`
     - A3 - Instalación de software
     - A4 - Claves y ocultación
+- Segundo Trimestre
   - Unidad3 `EN DESARROLLO`
     - A1 - Backup
