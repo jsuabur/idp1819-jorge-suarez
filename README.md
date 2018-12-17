@@ -15,7 +15,7 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
     - A2 - Licencias de software
     - A3 - Instalación personalizada con Debian
     - A5 - Instalación dual
-    - A7 - Boot Loader `EN DESARROLLO`
+    - A7 - Boot Loader
   - Unidad2
     - A1 - Usuarios y permisos `EN DESARROLLO`
     - A3 - Instalación de software
