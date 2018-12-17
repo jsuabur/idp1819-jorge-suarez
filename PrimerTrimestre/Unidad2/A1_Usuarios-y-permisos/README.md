@@ -30,7 +30,7 @@ Tras esto, en el usuario `jedi1` creé tres carpetas con los siguientes permisos
 
 ![Carpeta Public-Jedi1 Windows](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A1_Usuarios-y-permisos/images/public-jedi1-w.png)
 
-![Carpeta Public-Jedis Windows](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A1_Usuarios-y-permisos/images/public-jedis-w.png)
+![Carpeta Public-Jedis Windows](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/PrimerTrimestre/Unidad2/A1_Usuarios-y-permisos/images/public-todos-w.png)
 
 ### 1.2. Usando los comandos Windows
 
