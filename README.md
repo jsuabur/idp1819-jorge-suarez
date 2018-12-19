@@ -17,7 +17,7 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
     - A5 - Instalación dual
     - A7 - Boot Loader
   - Unidad2
-    - A1 - Usuarios y permisos `EN DESARROLLO`
+    - A1 - Usuarios y permisos
     - A3 - Instalación de software
     - A4 - Claves y ocultación
 - Segundo Trimestre
