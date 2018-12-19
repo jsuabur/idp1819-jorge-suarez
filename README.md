@@ -20,6 +20,6 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
     - A1 - Usuarios y permisos
     - A3 - Instalación de software
     - A4 - Claves y ocultación
-- Segundo Trimestre
+- Segundo Trimestre `EN DESARROLLO`
   - Unidad3 `EN DESARROLLO`
     - A1 - Backup `EN DESARROLLO`
