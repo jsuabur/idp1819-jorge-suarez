@@ -28,9 +28,18 @@
 
 ### 2.1. En el Windows Server
 
-
+![Control Total de backup24 Todos](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/todos-total-ws.png)
 
 ### 2.2. En el Windows7
+
+![Recurso Compartido de Trooper](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/recurso-compartido-trooper.png)
+
+![Claves del imperio y Plano Estrella de la muerte Trooper](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/claves-plano-trooper.png)
+
+![Copia de Seguridad Trooper](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/copia-ws.png)
+
+
+
 
 
 
@@ -73,7 +82,13 @@ Varios:
 
 ### 3.4. Realizamos la copia de seguridad
 
-![Copa Jedi](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/jedi-total.png)
+![Copia Jedi Tar](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/jedi-total.png)
+
+![Extraer en tmp](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/ext-tmp.png)
+
+![Copia Jedi Tar 2](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/copia2-jedi.png)
+
+![Restaurar Mapa Jedi](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/mapa-jedi.png)
 
 ---
 
