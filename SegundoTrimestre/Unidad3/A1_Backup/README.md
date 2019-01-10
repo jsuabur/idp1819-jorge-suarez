@@ -48,11 +48,32 @@
 
 ### 3.3. TEORÍA: Aprendiendo a usar el comando tar
 
+A continuación dejare unas líneas de comandos con los que utilizar `tar`
 
+Crear backup:
+*
+*
+
+Consultar contenido del backup:
+*
+*
+
+Extraer uno o varios ficheros del backup:
+*
+*
+*
+*
+*
+*
+
+Varios:
+*
+*
+*
 
 ### 3.4. Realizamos la copia de seguridad
 
-
+![Copa Jedi](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/jedi-total.png)
 
 ---
 
