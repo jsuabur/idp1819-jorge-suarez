@@ -38,10 +38,11 @@
 
 ![Copia de Seguridad Trooper](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/copia-ws.png)
 
+![Restaurar en temp](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/temp-w.png)
 
+![Segunda Copia Mydocs24](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/segunda-copia-w.png)
 
-
-
+![Plano Estrella restaurado](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/plano-restau.png)
 
 ---
 
@@ -54,31 +55,6 @@
 ### 3.2. Preparamos la copia de seguridad
 
 ![Permisos Jedi24](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/permisos-jedi24.png)
-
-### 3.3. TEORÍA: Aprendiendo a usar el comando tar
-
-A continuación dejare unas líneas de comandos con los que utilizar `tar`
-
-Crear backup:
-*
-*
-
-Consultar contenido del backup:
-*
-*
-
-Extraer uno o varios ficheros del backup:
-*
-*
-*
-*
-*
-*
-
-Varios:
-*
-*
-*
 
 ### 3.4. Realizamos la copia de seguridad
 
@@ -96,6 +72,14 @@ Varios:
 
 ### 4.1. El usuario tiene datos que guardar
 
+![Comandos Sith Ficheros](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/comandos-w.png)
 
+![Consultar Copia Sith](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/consultar-copia-sith.png)
+
+![Restaurar en Temp](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/restau-temp-sith.png)
+
+![Consultar Segunda Copia de Sith](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/consult2-copia-sith.png)
+
+![Restaurar Plano Estrella de la Muerte Original](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/restaurar-plano-sith.png)
 
 ### 4.2. Información sobre Cygwin
