@@ -23,4 +23,4 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
 - Segundo Trimestre `EN DESARROLLO`
   - Unidad3 `EN DESARROLLO`
     - A1 - Backup
-    - A2 - Raid Debian Windows `EN DESARROLLO`
+    - A2 - Raid OpenSUSE Windows `EN DESARROLLO`
