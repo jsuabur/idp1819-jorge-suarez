@@ -1,5 +1,5 @@
 
-# :octocat: Raid OpenSUSE y Windows :octocat:
+# Raid OpenSUSE y Windows
 
 ---
 
