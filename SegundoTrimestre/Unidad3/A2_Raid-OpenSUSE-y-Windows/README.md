@@ -24,7 +24,7 @@ Dispositivo | Tamaño | Tipo | Formato | Montar
 /dev/sdb1 | 10GB | Partición | RAID |
 /dev/sdc1 | 10GB | Partición | RAID |
 
-![Particiones de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/particiones-opensuse.png)
+![Particiones de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/images/particiones-opensuse.png)
 
 Creamos el nuevo volumen RAID-0 con `sdb1` y `sdc1`
 
@@ -32,7 +32,7 @@ Dispositivo | Tamaño | Tipo | Formato | Montar
 ----------- | ------ | ---- | ------- | ------
 /dev/md/raid0a24 | 20GB | Partición | btrfs | /
 
-![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/raid0-suse.png)
+![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/images/raid0-suse.png)
 
 ### 1.3. Comprobación
 
@@ -47,13 +47,13 @@ Tras realizar las particiones y el RAID-0, lo comprobamos con los siguientes com
 * cat /proc/mdstat
 * lsblk -fm
 
-![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/comp1-opensuse.png)
+![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/images/comp1-opensuse.png)
 
-![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/comp2-opensuse.png)
+![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/images/comp2-opensuse.png)
 
-![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/comp3-opensuse.png)
+![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/images/comp3-opensuse.png)
 
-![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/comp4-opensuse.png)
+![Raid0 de OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/images/comp4-opensuse.png)
 
 ---
 
