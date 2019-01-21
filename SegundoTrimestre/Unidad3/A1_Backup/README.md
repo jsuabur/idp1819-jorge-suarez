@@ -81,5 +81,3 @@
 ![Consultar Segunda Copia de Sith](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/consult2-copia-sith.png)
 
 ![Restaurar Plano Estrella de la Muerte Original](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A1_Backup/images/restaurar-plano-sith.png)
-
-### 4.2. Información sobre Cygwin
