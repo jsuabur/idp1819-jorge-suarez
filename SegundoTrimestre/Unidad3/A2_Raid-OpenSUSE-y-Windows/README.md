@@ -59,11 +59,17 @@ Tras realizar las particiones y el RAID-0, lo comprobamos con los siguientes com
 
 ## 2. RAID-1 software
 
-
+Para prevenir algún contratiempo, haremos una instantánea de la MV.
 
 ### 2.1. Preparar la MV
 
+Ahora añadiremos 2 discos virtuales del mismo tamaño:
+* (d) 500MB
+* (e) 500MB
 
+Para comprobar que son `/dev/sdd` y `/dev/sde` utilicé el comando `fdisk -l`.
+
+![Comprobar discos OpenSUSE](https://github.com/jsuabur/idp1819-jorge-suarez/blob/master/SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows/images/comp-discos-opensuse.png)
 
 ### 2.2. Crear RAID-1
 
