@@ -160,19 +160,3 @@ Tras esto, comprobamos que esta todo correcto con los siguientes comandos:
 ![Comprobación OpenSUSE](./images/comp3-opensuse.png)
 
 ![Comprobación OpenSUSE](./images/comp4-opensuse.png)
-
----
-
-## 4. Discos dinámicos en Windows
-
-
-
-### 4.1. Volumen Seccionado (RAID-0)
-
-
-
-### 4.2. Volumen Reflejado (RAID-1)
-
-
-
-### 4.3. Pregunta RAID-5
