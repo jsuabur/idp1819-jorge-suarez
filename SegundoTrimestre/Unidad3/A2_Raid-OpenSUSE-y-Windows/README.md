@@ -97,23 +97,69 @@ Tras crearlo utilizaremos varios comandos para comprobar que se ha creado correc
 Tras comprobar que se creó correctamente, montamos el dispositivo en `raid1disco24` con el comando:
 > `mount /dev/md/raid1a24 /mnt/raid1disco24`
 
+Comprobamos que se montó bien con `df -hT`.
+
 ![Montar RAID1 OpenSUSE](./images/montar-raid1-opensuse.png)
 
+Tras montarlo, creamos los siguientes ficheros/directorios:
+* Directorio `/mnt/raid1disco24/naboo`
+* Fichero `/mnt/raid1disco24/naboo/toda.txt`
+* Directorio `/mnt/raid1disco24/endor`
+* Fichero `/mnt/raid1disco24/endor/sandtrooper.txt`
 
+![Ficheros y Directorios](./images/ficheros-raid1disco24.png)
 
 ### 2.5. Configuración de RAID-1
 
+Antes que nada, volvemos a hacer una snapshot de la MV por seguridad.
 
+Hacemos la configuración de RAID1 permanente por `Yast`.
 
 ### 2.6. Montaje automático
 
+Ahora configuramos el fichero `/etc/fstab` para que el disco raid1a24 se monte automáticamente en cada reinicio.
 
+* Hacemos una copia del fichero
+* Ir a `Yast -> Particionador`
+* Configurar para que el disco `/dev/md/raid1a24` se monte automáticamente en cada reinicio en `/mnt/raid1disco24`.
+* Para finalizar consulté el fichero `/etc/fstab` resultante.
+
+![Montaje automático](./images/automontado-raid1a24.png)
+
+![Etc-Fstab](./images/etc-fstab.png)
 
 ---
 
 ## 3. Quitar disco y probar
 
+Apagamos la máquina y quitamos el disco `/dev/sde`.
+Reiniciamos y comprobamos que la información no se ha perdido.
+Volvemos a poner el disco y reiniciamos.
 
+Tras esto, sincronizamos los discos y comprobamos que esta correcto con los siguientes comandos:
+* `mdadm --detal /dev/raid1a24`
+* `mdadm /dev/raid1a24 --manage --add /dev/sde`
+* `mdadm --detal /dev/raid1a24`
+
+![RAID1 con 1 disco](./images/mdadm-sindisco.png)
+
+![RAID1 con 2 discos](./images/mdadm-condisco.png)
+
+Tras esto, comprobamos que esta todo correcto con los siguientes comandos:
+* `date`
+* `fdisk -l`
+* `df -hT`
+* `cat /proc/mdstat`
+* `lsblk -fm`
+* `cat /etc/mdadm.conf`
+
+![Comprobación OpenSUSE](./images/comp1-opensuse.png)
+
+![Comprobación OpenSUSE](./images/comp2-opensuse.png)
+
+![Comprobación OpenSUSE](./images/comp3-opensuse.png)
+
+![Comprobación OpenSUSE](./images/comp4-opensuse.png)
 
 ---
 
