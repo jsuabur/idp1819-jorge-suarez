@@ -103,7 +103,7 @@ Comprobamos que se montó bien con `df -hT`.
 
 Tras montarlo, creamos los siguientes ficheros/directorios:
 * Directorio `/mnt/raid1disco24/naboo`
-* Fichero `/mnt/raid1disco24/naboo/toda.txt`
+* Fichero `/mnt/raid1disco24/naboo/yoda.txt`
 * Directorio `/mnt/raid1disco24/endor`
 * Fichero `/mnt/raid1disco24/endor/sandtrooper.txt`
 
