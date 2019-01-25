@@ -69,4 +69,4 @@ Ahora quitamos el `disco original` y añadimos el `disco clonado`.
 
 Comprobamos que el fichero no existe
 
-![No existe fichero](./images/disco clonado)
+![No existe fichero](./images/disco-clonado.png)
