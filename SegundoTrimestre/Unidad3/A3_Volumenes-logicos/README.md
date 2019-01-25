@@ -16,6 +16,7 @@ Creamos una MV Debian con:
 
 **Partición BOOT**
 
+Hay que
 
 **Partición para LVM**
 
