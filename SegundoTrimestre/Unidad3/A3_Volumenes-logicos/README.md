@@ -19,6 +19,11 @@ Creamos una MV Debian con:
 
 **Partición para LVM**
 
+
+![Particiones](./images/particion-lvm.png)
+
+![Particionado Listo]
+
 ### 1.3. Comprobación de la instalación LVM
 
 
