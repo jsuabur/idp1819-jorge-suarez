@@ -107,7 +107,13 @@ Antes que nada hacer una snapshot de la MV por si acaso.
 
 ### 3.1. Preparar la MV
 
+Añadimos dos discos virtuales:
+  * Disco *B* de `200MB`: con una partición completa del disco.
+  * Disco *C* de `750MB`: con 3 particiones de 250MB sin formato, ni tipo.
 
+Yo creé las particiones con el programa `gparted`.
+
+![Gparted Discos](./images/.png)
 
 ### 3.2. Crear VG y VL
 
