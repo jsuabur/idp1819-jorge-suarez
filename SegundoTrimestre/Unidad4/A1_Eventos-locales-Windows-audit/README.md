@@ -11,8 +11,6 @@ La actividad importante se queda registrada en los ficheros de registro. Esto no
 
 ## 2. SO Windows
 
-
-
 ### 2.1. Auditar inicios de sesión
 
 
