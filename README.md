@@ -21,6 +21,10 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
     - [A3 - Instalación de software](./PrimerTrimestre/Unidad2/A3_Instalacion-de-software)
     - [A4 - Claves y ocultación](./PrimerTrimestre/Unidad2/A4_Claves-y-ocultacion)
 - Segundo Trimestre `EN DESARROLLO`
-  - Unidad3 `EN DESARROLLO`
+  - Unidad3
     - [A1 - Backup](./SegundoTrimestre/Unidad3/A1_Backup)
-    - [A2 - Raid OpenSUSE Windows](./SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows) `EN DESARROLLO`
+    - [A2 - Raid OpenSUSE Windows](./SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows)
+  - Unidad4
+    - [A1 - Eventos locales (Windows, audit)](./SegundoTrimestre/Unidad4/A1_Eventos-locales-Windows-audit)
+
+    
