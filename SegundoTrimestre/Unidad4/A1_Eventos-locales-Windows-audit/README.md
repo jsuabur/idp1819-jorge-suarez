@@ -1,5 +1,5 @@
 
-#
+# Eventos locales (Windows, OpenSUSE y audit)
 
 ---
 
@@ -12,6 +12,16 @@ La actividad importante se queda registrada en los ficheros de registro. Esto no
 ## 2. SO Windows
 
 ### 2.1. Auditar inicios de sesión
+
+Ir a `Directiva de seguridad local` dentro de `Herramientas administrativas`, y activar la opción para directivas de seguridad, `Auditar eventos de inicio de sesión de cuenta`.
+
+![Inicio de sesión](./images/auditar-inicio.png)
+
+Crear el archivo `C:\public\estrellita24.txt`
+
+En el apartado de `Seguridad` del fichero, entrar en `Opciones avanzadas` y luego en `Auditoría`. Habilitar configuración de correctos y erróneos par `soldado1` y `soldado2`
+
+![Auditoria estrellita24](./images/estrellita24.png)
 
 
 
