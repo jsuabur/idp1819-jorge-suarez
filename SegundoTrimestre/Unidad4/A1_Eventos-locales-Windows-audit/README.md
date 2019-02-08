@@ -35,10 +35,6 @@ En el apartado de `Seguridad` del fichero, entrar en `Opciones avanzadas` y lueg
 
 
 
-### 3.1. Un poco de teoría
-
-
-
 ### 3.2. Instalación y teoría
 
 
