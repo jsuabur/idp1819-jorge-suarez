@@ -26,5 +26,4 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
     - [A2 - Raid OpenSUSE Windows](./SegundoTrimestre/Unidad3/A2_Raid-OpenSUSE-y-Windows)
   - Unidad4
     - [A1 - Eventos locales (Windows, audit)](./SegundoTrimestre/Unidad4/A1_Eventos-locales-Windows-audit)
-
-    
+    * [A2 - AppArmor](./SegundoTrimestre/Unidad4/A2_AppArmor)

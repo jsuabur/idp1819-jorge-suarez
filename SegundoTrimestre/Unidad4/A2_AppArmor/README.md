@@ -22,11 +22,18 @@
 
 ### 1.2. Yast
 
-
+* La gestión de los perfiles AppArmor con Yast `Yast -> Configuración AppArmor`, permite:
+  * Cambiar la configuración de AppArmor.
+  * Gestionar los perfiles existentes.
+  * Crear un perfil manualmente.
 
 ### 1.3. Los perfiles
 
+El perfil es una configuración de seguridad que establece que permisos tiene un determinado ejecutable.
 
+Herramientas como `aa-genprof`, nos puede ayudar a crear el perfil:
+  * Crear un perfil con `aa-genprof`
+  * Crear un perfil con `aa-autodep`
 
 ---
 
@@ -36,6 +43,8 @@
 
 > En la `Terminal 1`
 
+* Abrimos una sesión con nuestro usuario, en mi caso `jorge`.
+* Copiamos el programa `/bin/cp`
 
 
 ### 2.2. Generar el perfil
