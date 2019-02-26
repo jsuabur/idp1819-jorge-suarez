@@ -12,7 +12,7 @@
 * `complain/learning` Modo de queja/aprendizaje
 * `enforce` Fuerza la aplicación de las políticas/reglas.
 
-**Control de servicio AppArmor**
+**Control del servicio AppArmor**
 
 * `systemctl status apparmor` Ver el estado del servicio.
 * `systemctl start apparmor` Iniciar el servicio.
@@ -44,8 +44,23 @@ Herramientas como `aa-genprof`, nos puede ayudar a crear el perfil:
 > En la `Terminal 1`
 
 * Abrimos una sesión con nuestro usuario, en mi caso `jorge`.
-* Copiamos el programa `/bin/cp`
+* Copiamos el programa `/bin/cp` con el nuevo nombre `/home/jorge/aa/mycopy`.
+* Crearemos lo siguiente:
+  * Crear directorio `/home/jorge/aa/elhalcon/`
+  * `elhalcon/han.txt` Escribir el contenido *jorge24*
+  * `elhalcon/chewaka.txt` Escribir el contenido *jorge24*
+  * `elhalcon/leia.txt` Escribir el contenido *jorge24*
+  * Crear directorio `/home/jorge/aa/ciudad-nube/`
+* Probamos a copiar archivos con nuestro comando `mycopy`:
+  * `cd /home/jorge/aa/`
+  * `./mycopy elhalcon/* ciudad-nube`
+  * comprobamos el resultado -> `tree`
 
+![Copiar elhalcon en ciudad-nube](./images/copia-halcon-nube.png)
+
+* limpiamos el directorio con `rm ciudad-nube/*`
+
+![](./images/copia-halcon-nube.png)
 
 ### 2.2. Generar el perfil
 
