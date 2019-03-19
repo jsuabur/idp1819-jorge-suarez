@@ -16,7 +16,7 @@ MV3 | client24w1 | 172.18.24.11 |
 ### 1.2. Configurar DNS local
 Tenemos que incluir en todas las máquinas, las MV de la práctica.
 
-> Máquinas OpenSUSE
+**Máquinas OpenSUSE**
 
 * Incluir en el `/etc/hosts`
 
@@ -24,7 +24,7 @@ Tenemos que incluir en todas las máquinas, las MV de la práctica.
 
 ![Ejemplo Cliente OpenSUSE](./images/host-opensuse.png)
 
-> Máquinas Windows
+**Máquinas Windows**
 
 * Incluir en `C:\Windows\System32\drivers\etc\hosts`
 
