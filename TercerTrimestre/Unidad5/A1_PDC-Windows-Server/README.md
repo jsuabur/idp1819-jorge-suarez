@@ -76,8 +76,9 @@ Grupo | `siths1819`
 
 #### MV Clientes
 
-**Cliente 1**
 > FECHA/HORA: Es muy importante tener todos los equipos bien sincronizados en cuanto al reloj.
+
+**Cliente 1**
 
 * **RED:** Cada cliente debe tener como DNS1 la `IP del PDC`, y como DNS2 al `8.8.4.4`
 
@@ -85,11 +86,19 @@ Grupo | `siths1819`
 
 Para comprobar, abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
 
+![Comando nslookup Cliente1](./images/cliente1-nslookup.png)
+
 **Cliente 2**
 
+* **RED:** Cada cliente debe tener como DNS1 la `IP del PDC`, y como DNS2 al `8.8.4.4`
 
+![IPv4 Cliente1](./images/cliente2-ipv4.png)
 
-### 4.2. Problemas en la unión al dominio
+Para comprobar, abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
+
+![Comando nslookup Cliente1](./images/cliente2-nslookup.png)
+
+### 4.2. Unir equipo al dominio
 
 
 
