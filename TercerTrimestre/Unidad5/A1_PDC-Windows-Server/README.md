@@ -24,7 +24,6 @@
   * Carpetas de almacenamiento *`Dejar valores por defecto`*
   * Ponemos una contraseña para el Administrador del dominio.
 
-![Servicios de dominio](./images/bosque-dominio.png)
 
 ![Windows Server 2008 Funcional](./images/2008-funcional.png)
 
