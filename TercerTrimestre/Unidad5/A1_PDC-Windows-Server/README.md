@@ -34,7 +34,6 @@
 **Comprobaciones**
 
 * Vamos a `DNS` dentro de `Herramientas` para comprobar que aparece dentro de `Zona de búsqueda directa` nuestro dominio.
-
 * Abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
 
 ![Comprobación DNS comandos](./images/DNS-consola.png)
@@ -43,7 +42,31 @@
 
 ## 3. Usuarios del dominio
 
+### 3.2. Práctica
 
+Vamos a crear usuarios y grupos del dominio:
+
+* Ir a `Usuarios y Equipos de Active Directory`
+
+Grupo | `jedis1819`
+------|-----------
+**Ámbito** | Global
+**Tipo** | Seguridad
+**Usuarios de dominio** | `yoda` y `obiwan`
+
+![Grupo jedis1819](./images/jedis1819.png)
+
+Grupo | `siths1819`
+------|-----------
+**Ámbito** | Global
+**Tipo** | Seguridad
+**Usuarios de dominio** | `vader` y `maul`
+
+![Grupo siths1819](./images/siths1819.png)
+
+* No confundir usuarios locales con usuarios del dominio.
+
+![Grupos y usuarios](./images/grupos.png)
 
 ---
 
