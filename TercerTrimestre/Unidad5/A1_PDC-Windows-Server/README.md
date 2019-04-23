@@ -78,39 +78,43 @@ Grupo | `siths1819`
 
 > FECHA/HORA: Es muy importante tener todos los equipos bien sincronizados en cuanto al reloj.
 
-**Cliente 1**
-
 * **RED:** Cada cliente debe tener como DNS1 la `IP del PDC`, y como DNS2 al `8.8.4.4`
 
-![IPv4 Cliente1](./images/cliente1-ipv4.png)
+* Para comprobar, abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
 
-Para comprobar, abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
+**Cliente 1**
+
+![IPv4 Cliente1](./images/cliente1-ipv4.png)
 
 ![Comando nslookup Cliente1](./images/cliente1-nslookup.png)
 
 **Cliente 2**
 
-* **RED:** Cada cliente debe tener como DNS1 la `IP del PDC`, y como DNS2 al `8.8.4.4`
+![IPv4 Cliente2](./images/cliente2-ipv4.png)
 
-![IPv4 Cliente1](./images/cliente2-ipv4.png)
-
-Para comprobar, abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
-
-![Comando nslookup Cliente1](./images/cliente2-nslookup.png)
+![Comando nslookup Cliente2](./images/cliente2-nslookup.png)
 
 ### 4.2. Unir equipo al dominio
 
 
 
-### 4.3. Comprobaciones
+### 4.3. Problemas en la unión del dominio
 
-**Por entorno gráfico**
+**Solo si hubiera problemas en el apartado 4.2.**
 
+Si tuviéramos poblemas al realizar esta tarea de unión del equipo al dominio, tenemos varias opciones:
 
+1. Esperar 5 minutos y repetir el proceso. Las redes SMB/CIFS tardan un tiempo en propagar la información de los equipos por la red.
 
-**Por comandos**
+2. Volver a comprobar que todas las configuraciones son correctas. Repite el paso uno (NOTA: Pon un compañero contigo mientras lo haces. 4 ojos ven más que 2).
 
+3. Si tenemos problemas con el DNS probar a configurar únicamente el DNS1 (ip del PDC).
 
+4. Consultar la información que contiene el servidor DNS del W2k8server. Si está vacía probar a resinstalar AD y DNS en W2k8server (NOTA: Una configuración incorrecta del servidor DNS hará que no se puedan unir los equipos al dominio).
+
+5. Probar a poner como puerta de enlace del cliente la IP del servidor PDC.
+
+6. Configurar las máquinas servidor y cliente en la misma red interna de VirtualBox (Consultar configuración de red de VirtualBox) y vuelve a intentarlo (NOTA: Pueden darse problemas si se repiten IP's no nombres de máquinas en la red. Al crear una red interna tenemos una zona aislada bajo nuestro control).
 
 ---
 
