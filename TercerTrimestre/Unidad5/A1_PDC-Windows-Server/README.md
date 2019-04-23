@@ -18,7 +18,7 @@
 * Se inicia el asistente de configuración de los servicios del dominio de AD (Active Directory). Ponemos los siguientes valores:
   * No marcamos *`Modo avanzado`*
   * Marcamos *`Crear un dominio nuevo de un bosque nuevo`*
-  * FQDN del dominio raíz del bosque: *`suarez24dom.curso1819`*
+  * FQDN del dominio raíz del bosque: *`burgos24dom.curso1819`*
   * Nivel funcional del bosque: *`Windows Server 2008`*
   * Dejamos marcado *`Servidor DNS`*
   * Carpetas de almacenamiento *`Dejar valores por defecto`*
@@ -38,7 +38,7 @@
 
 ![Comprobación DNS gráfica](./images/DNS.png)
 
-* Abrir una consola y ejecutar `nslookup suarez24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
+* Abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
 
 ![Comprobación DNS comandos](./images/DNS-consola.png)
 
