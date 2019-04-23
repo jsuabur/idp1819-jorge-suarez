@@ -50,16 +50,16 @@ Vamos a crear usuarios y grupos del dominio:
 
 Grupo | `jedis1819`
 ------|-----------
-**Ámbito** | Global
-**Tipo** | Seguridad
+**Ámbito de grupo** | Global
+**Tipo de grupo** | Seguridad
 **Usuarios de dominio** | `yoda` y `obiwan`
 
 ![Grupo jedis1819](./images/jedis1819.png)
 
 Grupo | `siths1819`
 ------|-----------
-**Ámbito** | Global
-**Tipo** | Seguridad
+**Ámbito de grupo** | Global
+**Tipo de grupo** | Seguridad
 **Usuarios de dominio** | `vader` y `maul`
 
 ![Grupo siths1819](./images/siths1819.png)
@@ -73,6 +73,19 @@ Grupo | `siths1819`
 ## 4. Equipos del dominio
 
 ### 4.1. Preparativos
+
+#### MV Clientes
+
+**Cliente 1**
+> FECHA/HORA: Es muy importante tener todos los equipos bien sincronizados en cuanto al reloj.
+
+* **RED:** Cada cliente debe tener como DNS1 la `IP del PDC`, y como DNS2 al `8.8.4.4`
+
+![IPv4 Cliente1](./images/cliente1-ipv4.png)
+
+Para comprobar, abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
+
+**Cliente 2**
 
 
 
