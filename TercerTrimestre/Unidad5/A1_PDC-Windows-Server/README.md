@@ -35,8 +35,6 @@
 
 * Vamos a `DNS` dentro de `Herramientas` para comprobar que aparece dentro de `Zona de búsqueda directa` nuestro dominio.
 
-![Comprobación DNS gráfica](./images/DNS.png)
-
 * Abrir una consola y ejecutar `nslookup burgos24dom.curso1819`. Debe aparecer la IP de nuestro servidor PDC.
 
 ![Comprobación DNS comandos](./images/DNS-consola.png)
