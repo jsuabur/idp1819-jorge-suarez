@@ -103,7 +103,7 @@ Uniremos los equipos clientes al dominio:
 
 ![Dominio Cliente 1](./images/cliente1-dominio.png)
 
-**Cliente 1**
+**Cliente 2**
 
 ![Dominio Cliente 2](./images/cliente2-dominio.png)
 
@@ -135,11 +135,22 @@ Ahora entraremos en los equipos clientes usando los usuarios del dominio. Podemo
 
 **Por entorno gráfico (Cliente 1)**
 
+* Vamos a la máquina cliente `Cliente1` y entramos con un usuario de dominio.
+* Entramos en `Administración de equipos` y una vez ahí vamos a `Usuarios` dentro de `Usuarios y grupos locales`.
 
+> Comprobamos que, efectivamente, los usuarios del dominio no aparecen.
+
+![Comprobaciones Cliente1 gráfico](./images/cliente1-comp-grafico.png)
 
 **Por comandos (Cliente 2)**
 
+* Vamos a la máquina cliente `Cliente2` y entramos con un usuario del dominio.
+* Abrimos consola `PowerShell` y ejecutamos los siguientes comandos:
+  * `whoami` muestra nuestro usuario actual del dominio.
+  * `net user` muestra los usuarios locales del sistema, en los que no aparecen los del dominio.
+  * `hostname` muestra el nombre del equipo.
 
+![Comprobaciones Cliente2 comandos](./images/cliente2-comp-comandos.png)
 
 ---
 
@@ -149,11 +160,15 @@ Ahora entraremos en los equipos clientes usando los usuarios del dominio. Podemo
 
 
 
-### 5.2. Crear Perfiles de usuarios
+### 5.2. Configurar la ruta de perfil de cada usuario
 
 
 
-### 5.3. Limpiar el equipo cliente
+### 5.3. Personalizar los perfiles en CLIENTE1
+
+
+
+### 5.4. Comprobar perfiles desde CLIENTE2
 
 
 
