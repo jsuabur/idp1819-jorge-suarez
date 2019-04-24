@@ -158,7 +158,13 @@ Ahora entraremos en los equipos clientes usando los usuarios del dominio. Podemo
 
 ### 5.1. Crear un segundo disco
 
+* Añadiremos un segundo disco al PDC de 1GB para guardar los perfiles de los usuarios del dominio.
 
+![Añadir segundo disco](./images/disco-extra.png)
+
+Formateamos el disco `NTFS` y le asignamos la letra `E`.
+
+![Formatear disco](./images/forma-disco.png)
 
 ### 5.2. Configurar la ruta de perfil de cada usuario
 
