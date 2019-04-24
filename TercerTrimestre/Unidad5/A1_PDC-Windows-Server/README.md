@@ -96,11 +96,20 @@ Grupo | `siths1819`
 
 ### 4.2. Unir equipo al dominio
 
+Uniremos los equipos clientes al dominio:
+  * Ir a `Propiedades` y dentro de `Miembro del Dominio:`, escribiremos el deseado, en mi caso `burgos24dom.curso1819`
 
+**Cliente 1**
+
+![Dominio Cliente 1](./images/cliente1-dominio.png)
+
+**Cliente 1**
+
+![Dominio Cliente 2](./images/cliente2-dominio.png)
 
 ### 4.3. Problemas en la unión del dominio
 
-**Solo si hubiera problemas en el apartado 4.2.**
+***Solo si hubiera problemas en el apartado 4.2.***
 
 Si tuviéramos poblemas al realizar esta tarea de unión del equipo al dominio, tenemos varias opciones:
 
@@ -115,6 +124,22 @@ Si tuviéramos poblemas al realizar esta tarea de unión del equipo al dominio, 
 5. Probar a poner como puerta de enlace del cliente la IP del servidor PDC.
 
 6. Configurar las máquinas servidor y cliente en la misma red interna de VirtualBox (Consultar configuración de red de VirtualBox) y vuelve a intentarlo (NOTA: Pueden darse problemas si se repiten IP's no nombres de máquinas en la red. Al crear una red interna tenemos una zona aislada bajo nuestro control).
+
+### 4.4. Comprobaciones
+
+Vamos al servidor (PDC) y comprobamos que nuestros dos equipos clientes se han unido al dominio satisfactoriamente.
+
+![Clientes en el dominio](./images/dominio-clientes.png)
+
+Ahora entraremos en los equipos clientes usando los usuarios del dominio. Podemos comprobarlos por entorno gráfico o usando comandos.
+
+**Por entorno gráfico (Cliente 1)**
+
+
+
+**Por comandos (Cliente 2)**
+
+
 
 ---
 
