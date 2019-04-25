@@ -49,7 +49,7 @@ Vamos a crear usuarios y grupos del dominio:
 * Ir a `Usuarios y Equipos de Active Directory`
 
 Grupo | `jedis1819`
-------|-----------
+------| :-----------:
 **Ámbito de grupo** | Global
 **Tipo de grupo** | Seguridad
 **Usuarios de dominio** | `yoda` y `obiwan`
@@ -57,7 +57,7 @@ Grupo | `jedis1819`
 ![Grupo jedis1819](./images/jedis1819.png)
 
 Grupo | `siths1819`
-------|-----------
+------| :-----------:
 **Ámbito de grupo** | Global
 **Tipo de grupo** | Seguridad
 **Usuarios de dominio** | `vader` y `maul`
@@ -162,17 +162,56 @@ Ahora entraremos en los equipos clientes usando los usuarios del dominio. Podemo
 
 ![Añadir segundo disco](./images/disco-extra.png)
 
-Formateamos el disco `NTFS` y le asignamos la letra `E`.
+* Formateamos el disco `NTFS` y le asignamos la letra `E`.
+* Para ello, iremos a `Administrador de discos` dentro del `Administrador del servidor`.
 
 ![Formatear disco](./images/forma-disco.png)
 
 ### 5.2. Configurar la ruta de perfil de cada usuario
 
+* En el PDC, crear la carpeta `E:\perfiles`.
+* En dicha carpeta, definir permisos `lectura/escritura` para el grupo `Usuarios del dominio`.
+* Usar modo avanzado para compartir la carpeta por red con el nombre `perfiles$`.
 
+> Recuerda que para acceder a la carpeta compartida de red, los usuarios deben tener permisos en el recurso de red y en la carpeta del sistema de ficheros.
+
+![Perfiles$](./images/perfiles.png)
+
+* Ahora vamos a la herramienta de gestión de `Usuarios del dominio`. Modificamos el atributo `ruta de acceso al perfil` de los siguientes usuarios del dominio:
+
+Usuario |          Ruta de acceso            
+------- | :-------------------------------------:
+yoda    | `\\172.18.24.21\perfiles$\%username%`
+obiwan  | `\\172.18.24.21\perfiles$\obiwan`     
+vader   | `\\172.18.24.21\perfiles$\%username%`
+maul    | `\\172.18.24.21\perfiles$\maul`       
+
+![Ruta de acceso de perfil remoto Jedis](./images/ruta-jedis.png)
+
+![Ruta de acceso de perfil remoto Siths](./images/ruta-siths.png)
 
 ### 5.3. Personalizar los perfiles en CLIENTE1
 
+**Cliente 1**
 
+* Para cada usuario modificamos el entorno del escritorio, colores e iconos.
+
+Usuario | Carpeta | Archivo de texto | Contenido
+:-------: | :-----: | :--------------: | :-------:
+**obiwan**  | `jedi`    | `personajes.txt`   | `yoda` y `obiwan`
+**maul**    | `sith`    | `personajes.txt`   | `vader` y `maul`
+
+**Obiwan**
+
+![Escritorio Obiwan](./images/cliente1-obiwan.png)
+
+**Maul**
+
+![Escritorio Maul](./images/cliente1-maul.png)
+
+* Debemos comprobar que se han creado las carpetas con los perfiles en el servidor para los usuarios anteriores.
+
+![Carpetas servidor](./images/carpetas-servido.png)
 
 ### 5.4. Comprobar perfiles desde CLIENTE2
 
