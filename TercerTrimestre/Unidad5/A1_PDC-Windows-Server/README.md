@@ -190,9 +190,7 @@ maul    | `\\172.18.24.21\perfiles$\maul`
 
 ![Ruta de acceso de perfil remoto Siths](./images/ruta-siths.png)
 
-### 5.3. Personalizar los perfiles en CLIENTE1
-
-**Cliente 1**
+### 5.3. Personalizar los perfiles en **CLIENTE1**
 
 * Para cada usuario modificamos el entorno del escritorio, colores e iconos.
 
@@ -209,11 +207,13 @@ Usuario | Carpeta | Archivo de texto | Contenido
 
 ![Escritorio Maul](./images/cliente1-maul.png)
 
-* Debemos comprobar que se han creado las carpetas con los perfiles en el servidor para los usuarios anteriores.
-
-![Carpetas servidor](./images/carpetas-servido.png)
-
 ### 5.4. Comprobar perfiles desde CLIENTE2
+
+Vamos a comprobar el perfil móvil.
+* Entramos con los usuarios del dominio `obiwan` y `maul`.
+  * Abrir PowerShell y ejecutar los siguientes comandos
+    * `hostname`
+    * `whoami`
 
 
 
