@@ -5,7 +5,20 @@
 
 ## 1. Preparativos
 
+Para esta práctica será necesario:
+  * 1 MV con Windows Server 2008 Enterprise
 
+> Poner como DNS1 el valor `127.0.0.1` y como DNS2 `8.8.4.4`.
+
+![Server 2008](./images/servidor-2008.png)
+
+  * 2 MV's con Windows7 Enterprise
+
+> Poner como DNS1 la `IP del servidor`, en mi caso `172.18.24.21` y como DNS2 `8.8.4.4`.
+
+![Cliente1](./images/cliente1.png)
+
+![Cliente2](./images/cliente2.png)
 
 ---
 
