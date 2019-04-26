@@ -215,7 +215,13 @@ Vamos a comprobar el perfil móvil.
     * `hostname`
     * `whoami`
 
+**Obiwan**
 
+![comprobar Obiwan](./images/cliente2-obiwan.png)
+
+**Maul**
+
+![Comprobar Maul](./images/cliente2-maul.png)
 
 ---
 
