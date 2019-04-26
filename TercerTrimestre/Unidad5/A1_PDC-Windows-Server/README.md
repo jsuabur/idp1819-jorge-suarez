@@ -16,7 +16,11 @@ Para esta práctica será necesario:
 
 > Poner como DNS1 la `IP del servidor`, en mi caso `172.18.24.21` y como DNS2 `8.8.4.4`.
 
+**Cliente 1**
+
 ![Cliente1](./images/cliente1.png)
+
+**Cliente 2**
 
 ![Cliente2](./images/cliente2.png)
 
