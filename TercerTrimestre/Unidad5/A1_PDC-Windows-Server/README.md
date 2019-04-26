@@ -234,6 +234,13 @@ Vamos a comprobar el perfil móvil.
 
 ## 6. Perfiles obligatorios
 
+* Primero vamos a dar permisos al usuario `Administrado` sobre el perfil de `maul` de la siguiente manera:
+  * Desde Windows7 (cualquiera de los dos clientes), entramos con usuario `maul`.
+  * Accedemos al recurso compartido `\\172.18.24.21\perfiles$`
+  * Añadimos al usuario `Administrador` para que tenga control total en la carpeta `maul.V2`.
+* Convertimos el perfil móvil del Sith Maul, a perfil obligatorio.
+* Comprobamos que ahora el perfil es obligatorio yendo a `Configuración de Perfiles de usuario` dentro de las opciones avanzadas del `Sistema`.
+
 
 
 ---
@@ -242,7 +249,7 @@ Vamos a comprobar el perfil móvil.
 * Modificamos los permisos de acceso a los usuarios del dominio, de la siguiente forma:
   * Los `"jedis"` sólo pueden acceder de *08:00 - 14:00* (de lunes a viernes)
 
-![Horario jedis](./images/.png)
+![Horario jedis](./images/sesion-jedis.png)
 
   * Los `"siths"` sólo pueden acceder de *14:00 - 20:00* (de lunes a viernes)
 
