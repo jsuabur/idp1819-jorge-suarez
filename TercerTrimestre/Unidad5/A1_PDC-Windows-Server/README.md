@@ -241,7 +241,7 @@ Vamos a comprobar el perfil móvil.
 * Convertimos el perfil móvil del Sith Maul, a perfil obligatorio.
 * Comprobamos que ahora el perfil es obligatorio yendo a `Configuración de Perfiles de usuario` dentro de las opciones avanzadas del `Sistema`.
 
-
+![Maul obligatorio](./images/man-maul.png)
 
 ---
 
@@ -253,4 +253,4 @@ Vamos a comprobar el perfil móvil.
 
   * Los `"siths"` sólo pueden acceder de *14:00 - 20:00* (de lunes a viernes)
 
-![Horario siths](./images/.png)
+![Horario siths](./images/sesion-siths.png)
