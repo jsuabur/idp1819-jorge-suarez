@@ -177,7 +177,7 @@ Ahora entraremos en los equipos clientes usando los usuarios del dominio. Podemo
 
 ![Perfiles$](./images/perfiles.png)
 
-* Ahora vamos a la herramienta de gestión de `Usuarios del dominio`. Modificamos el atributo `ruta de acceso al perfil` de los siguientes usuarios del dominio:
+* Ahora vamos a la herramienta de gestión de `Usuarios del dominio`. Modificamos el atributo `ruta de acceso al perfil` en la pestaña `Perfil`, de los siguientes usuarios del dominio:
 
 Usuario |          Ruta de acceso            
 ------- | :-------------------------------------:
@@ -207,6 +207,10 @@ Usuario | Carpeta | Archivo de texto | Contenido
 
 ![Escritorio Maul](./images/cliente1-maul.png)
 
+* Debemos comprobar que se han creado las carpetas con los perfiles en el sevidor para los usuarios anteriores.
+
+![Carpetas Servidor](./images/servidor-perfiles.png)
+
 ### 5.4. Comprobar perfiles desde CLIENTE2
 
 Vamos a comprobar el perfil móvil.
@@ -214,6 +218,9 @@ Vamos a comprobar el perfil móvil.
   * Abrir PowerShell y ejecutar los siguientes comandos
     * `hostname`
     * `whoami`
+    * `more .\Desktop\CARPETA\personajes.txt`
+
+> Sustituiremos CARPETA por `jedi` o `sith` según el usuario en el que lo estemos comprobando para ver el contenido del fichero de texto creado.
 
 **Obiwan**
 
