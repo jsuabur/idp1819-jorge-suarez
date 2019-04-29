@@ -28,8 +28,8 @@ Ahora aplicaremos las siguientes directas a las OU anteriores.
 | :---------------------------:
 | `Quitar el menú Ejecutar del menú Inicio`
 | `Quitar el icono de Red del menú Inicio`
-|
-
+| `Quitar icono de Red`
+| `Quitar Conexiones de red del menú Inicio`
 
 #### OU siths24c1819
 
