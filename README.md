@@ -32,3 +32,4 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
 - Tercer Trimestre `EN DESARROLLO`
   - Unidad5
     - [A1 - PDC Windows Server](./TercerTrimestre/Unidad5/A1_PDC-Windows-Server)
+    - [A2 - PDC Políticas o directivas de grupo](./TercerTrimestre/Unidad5/A2_PDC-politicas)
