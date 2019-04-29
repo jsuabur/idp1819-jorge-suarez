@@ -3,14 +3,9 @@
 
 ---
 
-## 1. Políticas o directivas de grupo
-
-
-
----
-
 ## 2. Aplicar directivas de Usuario
 
+**IMPORTANTE** Antes de empezar la práctica crearemos una "snapshot" del PDC, para prevenir futuros problemas.
 
 
 ---
