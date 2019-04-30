@@ -36,7 +36,7 @@ Unidades Organizativas | `jedis24c1819` | `siths24c1819`
 Ahora aplicaremos y habilitaremos las siguientes directivas a las OU anteriores.
 * Encontraremos todas las siguientes dentro de `Configuración de usuario / Directivas / Plantillas administrativas`
 
-![Carpeta Directivas](./images/.png)
+![Carpeta administrativa](./images/carpeta-directivas.png)
 
 #### OU jedis24c1819
 
@@ -68,9 +68,9 @@ Al terminar de configurar las directivas, haremos lo siguiente:
 
 > En algunos casos, después de definir una política, ésta tarda un tiempo en activarse, pero usando el comando anterior, nos aseguramos de que este paso de activación se realice inmediatamente.
 
-![](./images/.png)
+![gpupdate /force](./images/gpupdate-force.png)
 
-* Ir a `Administración de Directivas de Grupo`
+* Ir a `Administración de Directivas de Grupo` y comprobar el resumen de la configuración de cada una de las directivas creadas.
 
 **GPO jedis24**
 
@@ -80,6 +80,7 @@ Al terminar de configurar las directivas, haremos lo siguiente:
 
 ![GPO siths24](./images/gpo_siths24-directivas.png)
 
+* Ahora comprobamos los efectos de las directivas de usuario en las MV clientes.
 ---
 
 ## 3. Aplicar directiva de Equipo
