@@ -10,7 +10,7 @@
 > **IMPORTANTE**: No aplicar la directivas a todo el dominio. SÓLO a las unidades organizativas que se especifiquen. Un error grave es aplicar las directivas a todo en lugar de a cada OU. Este error puede afectar al correcto funcionamiento del servidor.
 
 Unidades Organizativas | `jedis24c1819` | `siths24c1819`
-:--------------------: | :-----------: | :------------:
+:-------------------- | :-----------: | :------------:
 **Usuarios**       | `obiwan` y `yoda` | `vader` y `maul`
 **GPO**                | `gpo_jedis24` | `gpo_siths24`
 
@@ -25,7 +25,7 @@ Ahora aplicaremos las siguientes directas a las OU anteriores.
 #### OU jedis24c1819
 
 | Menú Inicio y barra de tareas
-| :---------------------------:
+| :-----------------------------------------:
 | `Quitar el menú Ejecutar del menú Inicio`
 | `Quitar el icono de Red del menú Inicio`
 | `Quitar icono de Red`
@@ -33,7 +33,17 @@ Ahora aplicaremos las siguientes directas a las OU anteriores.
 
 #### OU siths24c1819
 
+| Panel de Control
+| :---------------------------------------:
+| `Prohibir el acceso al Panel de control`
 
+| Escritorio
+| :-----------------------------------------:
+| `Ocultar el icono Ubicaciones de red del escritorio`
+
+| Componentes de Windows / Explorador de Windows
+| :---------------------------------------------:
+| `Quitar <Conectar a unidad de red> y <Desconectar de unidad de red>`
 
 ---
 
