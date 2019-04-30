@@ -5,30 +5,46 @@
 
 ## 2. Aplicar directivas de Usuario
 
+### 2.1. Crear las OU y GPO
+
 **IMPORTANTE** Antes de empezar la práctica crearemos una "snapshot" del PDC, para prevenir futuros problemas.
 
 > **IMPORTANTE**: No aplicar la directivas a todo el dominio. SÓLO a las unidades organizativas que se especifiquen. Un error grave es aplicar las directivas a todo en lugar de a cada OU. Este error puede afectar al correcto funcionamiento del servidor.
 
 Unidades Organizativas | `jedis24c1819` | `siths24c1819`
-:-------------------- | :-----------: | :------------:
-**Usuarios**       | `obiwan` y `yoda` | `vader` y `maul`
-**GPO**                | `gpo_jedis24` | `gpo_siths24`
+:--------------------- | :------------: | :------------:
+**Usuarios**       | `obiwan` y `yoda`  | `vader` y `maul`
+**GPO**                | `gpo_jedis24`  | `gpo_siths24`
+
+**Unidades Organizativas**
+
+![Unidades Organizativas](./images/ou-jedis24c1819.png)
+
+![Unidades Organizativas](./images/ou-siths24c1819.png)
+
+**GPO**
+
+![Unidades Organizativas](./images/jedis24-siths24.png)
+
+### 2.2. Personalizar cada GPO de forma diferente
 
 > INFO Para editar configuraciones de Directiva de grupo:
 >
 > * En Group Policy Management (Administración de directivas de grupo), en el árbol de consola, desplegar Group Policy Objects (Objetos de Directiva de grupo). Click con el botón derecho del ratón en el GPO y seleccionar Edit (Editar).
 > * En el Editor de objetos de Directiva de grupo, buscar la Directiva de grupo que queremos modificar y hacemos doble clic. En el cuadro de diálogo Propiedades, cambiamos la configuración y Aceptar.
 
-Ahora aplicaremos las siguientes directas a las OU anteriores.
+Ahora aplicaremos y habilitaremos las siguientes directivas a las OU anteriores.
 * Encontraremos todas las siguientes dentro de `Configuración de usuario / Directivas / Plantillas administrativas`
+
+![Carpeta Directivas](./images/.png)
 
 #### OU jedis24c1819
 
 | Menú Inicio y barra de tareas
 | :-----------------------------------------:
 | `Quitar el menú Ejecutar del menú Inicio`
-| `Quitar el icono de Red del menú Inicio`
-| `Quitar icono de Red`
+| `Quitar el icono Red del menú Inicio`
+| `Quitar icono de red`
 | `Quitar Conexiones de red del menú Inicio`
 
 #### OU siths24c1819
@@ -43,7 +59,26 @@ Ahora aplicaremos las siguientes directas a las OU anteriores.
 
 | Componentes de Windows / Explorador de Windows
 | :---------------------------------------------:
-| `Quitar <Conectar a unidad de red> y <Desconectar de unidad de red>`
+| `Quitar "Conectar a unidad de red" y "Desconectar de unidad de red"`
+
+### 2.3. Comprobar que se aplican las directivas
+
+Al terminar de configurar las directivas, haremos lo siguiente:
+* Abrir consola como administrador y ejecutar `gpupdate /force` para forzar las actualizaciones de las directivas.
+
+> En algunos casos, después de definir una política, ésta tarda un tiempo en activarse, pero usando el comando anterior, nos aseguramos de que este paso de activación se realice inmediatamente.
+
+![](./images/.png)
+
+* Ir a `Administración de Directivas de Grupo`
+
+**GPO jedis24**
+
+![GPO jedis24c1819](./images/gpo_jedis24-directivas.png)
+
+**GPO siths24**
+
+![GPO siths24](./images/gpo_siths24-directivas.png)
 
 ---
 
@@ -53,12 +88,22 @@ Ahora aplicaremos las siguientes directas a las OU anteriores.
 
 
 
+![](./images/.png)
+
 ### 3.2. Crear paquete MSI
 
 
+
+![](./images/.png)
 
 ### 3.3. Crear nueva GPO en el servidor
 
 
 
+![](./images/.png)
+
 ### 3.4. Comprobar desde los clientes
+
+
+
+![](./images/.png)
