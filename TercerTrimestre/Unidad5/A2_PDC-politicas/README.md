@@ -98,7 +98,23 @@ Después comprobamos en el `Cliente 2` con un usuario de la OU `siths24c1819`, e
 
 ### 3.1. Instalar en el servidor
 
+Ahora vamos a crear nuestro propio paquete de instalación MSI.
 
+**En el servidor**
+* Descargamos e instalamos el programa `WinINSTALL`.
+* Una vez instalada la aplicación hemos de asignar permisos de acceso al recurso compartido de WinINSTALL al usuario `Administrador`
+
+![WinINSTALL](./images/WinINSTALL.png)
+
+* Creamos la carpeta `e:\software24`
+  * A los `Usuarios del dominio` le ponemos permisos de:
+    * `Lectura/ejecución`
+    * `Mostrar contenido de la carpeta`
+    * `Lectura`
+
+![Permisos Usuarios del dominio](./images/ud-permisos.png)
+
+Permisos | &#9745;
 
 ![](./images/.png)
 
