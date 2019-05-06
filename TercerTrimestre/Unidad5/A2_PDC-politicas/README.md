@@ -107,14 +107,23 @@ Ahora vamos a crear nuestro propio paquete de instalación MSI.
 ![WinINSTALL](./images/WinINSTALL.png)
 
 * Creamos la carpeta `e:\software24`
-  * A los `Usuarios del dominio` le ponemos permisos de:
-    * `Lectura/ejecución`
-    * `Mostrar contenido de la carpeta`
-    * `Lectura`
+
+**Permisos sobre la Carpeta**
+
+Permisos | **`Usuarios del dominio`** | **`Administradores`**
+-------- | :------------------------: | :-----------:
+Control total |    |   &#x2714;
+Modificar |             | &#x2714;
+Lectura y ejecución |        &#x2714;         | &#x2714;
+Mostrar el contenido de la carpeta |     &#x2714;     | &#x2714;
+Lectura |       &#x2714;         | &#x2714;
+Escritura |             | &#x2714;
+Permisos especiales |             | &#x2714;
+
 
 ![Permisos Usuarios del dominio](./images/ud-permisos.png)
 
-Permisos | &#9745;
+Permisos |
 
 ![](./images/.png)
 
