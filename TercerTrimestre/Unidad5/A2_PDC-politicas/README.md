@@ -81,6 +81,17 @@ Al terminar de configurar las directivas, haremos lo siguiente:
 ![GPO siths24](./images/gpo_siths24-directivas.png)
 
 * Ahora comprobamos los efectos de las directivas de usuario en las MV clientes.
+
+**Cliente 1**
+Comprobamos en el `Cliente 1` con un usuario de la OU `jedis24c1819`, en mi caso `obiwan`.
+
+![Políticas Obiwan](./images/politicas-obiwan.png)
+
+**Cliente 2**
+Después comprobamos en el `Cliente 2` con un usuario de la OU `siths24c1819`, en mi caso `maul`.
+
+![Políticas Maul](./images/politicas-maul.png)
+
 ---
 
 ## 3. Aplicar directiva de Equipo
