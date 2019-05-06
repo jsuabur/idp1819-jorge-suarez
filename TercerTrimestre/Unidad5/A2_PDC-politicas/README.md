@@ -121,7 +121,15 @@ Permisos especiales |             | &#x2714;
 
 ![Permisos Usuarios del dominio](./images/ud-permisos.png)
 
-Permisos |
+Permisos |        **`Todos`**         | **`Usuarios del dominio`**
+-------- | :------------------------: | :------------------------:
+Control total |                       | &#x2714;
+Modificar |                           | &#x2714;
+Lectura y ejecución |                 | &#x2714;
+Mostrar el contenido de la carpeta |  | &#x2714;
+Lectura |         &#x2714;            | &#x2714;
+Escritura |                           | &#x2714;
+Permisos especiales |                 | &#x2714;
 
 ![](./images/.png)
 
