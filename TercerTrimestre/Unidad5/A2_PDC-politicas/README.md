@@ -108,8 +108,6 @@ Ahora vamos a crear nuestro propio paquete de instalación MSI.
 
 * Creamos la carpeta `e:\software24`
 
-**Permisos sobre la Carpeta**
-
 Permisos | **`Usuarios del dominio`** | **`Administradores`**
 -------- | :------------------------: | :-----------:
 Control total |    |   &#x2714;
