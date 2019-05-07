@@ -118,23 +118,21 @@ Lectura |       &#x2714;         | &#x2714;
 Escritura |             | &#x2714;
 Permisos especiales |             | &#x2714;
 
-![Permisos Usuarios del dominio](./images/ud-permisos.png)
+![Permisos Usuarios del dominio](./images/ud-permisos-carpeta.png)
 
-![Permisos Administradores](./images/.png)
+![Permisos Administradores](./images/admins-permisos-carpeta.png)
 
 * Creamos el recurso compartido de red `software24` a la carpeta anterior
 
 Permisos |        **`Todos`**         | **`Usuarios del dominio`**
 -------- | :------------------------: | :------------------------:
 Control total |                       |       &#x2714;
-Modificar |                           |       &#x2714;
-Lectura y ejecución |                 |       &#x2714;
-Mostrar el contenido de la carpeta |  |       &#x2714;
-Lectura |         &#x2714;            |       &#x2714;
-Escritura |                           |       &#x2714;
-Permisos especiales |                 |       &#x2714;
+Cambiar |                             |       &#x2714;
+Leer |         &#x2714;               |       &#x2714;
 
-![](./images/.png)
+![Permisos Recurso de Red - Usuarios del dominio](./images/ud-permisos-recursos.png)
+
+![Permisos Recurso de Red - Administradores](./images/todos-permisos-recursos.png)
 
 * Creamos la subcarpeta `E:\software24\chrome`.
 
