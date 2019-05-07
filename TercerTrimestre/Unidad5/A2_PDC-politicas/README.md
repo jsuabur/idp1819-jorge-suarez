@@ -163,7 +163,13 @@ Ahora vamos a crear nuestro propio paquete de instalación MSI.
 
 ![Paquete MSI Firefox](./images/firefox24.png)
 
+* Unidad donde se almacenarán los ficheros temporales -> `C:`.
+* Unidades que serán analizadas para realizar la foto inicial -> La unidad `C:` de nuestro equipo cliente.
+* Indicar los ficheros que serán excluidos del análisis -> Aceptaremos las opciones propuestas por el asistente por defecto.
+* Pulsamos Finish para comenzar la generación de la foto inicial del equipo.
 
+> **¡MUY IMPORTANTE!**
+> **En el tiempo comprendido entre la ejecución de este proceso y la ejecución del proceso de la foto final, es crítico ejecutar únicamente el software de instalación del paquete MSI a generar. Cualquier modificación que se haga durante este proceso, se grabará en el paquete MSI obtenido, aunque no forme parte de las modificaciones realizadas de la aplicación durante su instalación.**
 
 ### 3.4. Crear nueva GPO en el servidor
 
