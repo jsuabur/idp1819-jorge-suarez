@@ -149,7 +149,7 @@ Ahora vamos a crear nuestro propio paquete de instalación MSI.
 * Entramos con el usuario administrador del dominio
 * Descargamos el instalador de Firefox.
 
-> **¡OJO!** Sólo descargar. No instalar todavía. El instalador de Chrome debe tener un tamaño de varios MBs. Si tiene pocos KBs no es el instalador, sino un programa para descargar el instalador.
+> **¡OJO!** Sólo descargar. No instalar todavía. El instalador de Firefox debe tener un tamaño de varios MBs. Si tiene pocos KBs no es el instalador, sino un programa para descargar el instalador.
 
 ![Instalador Firefox](./images/instalador-firefox.png)
 
@@ -165,20 +165,61 @@ Ahora vamos a crear nuestro propio paquete de instalación MSI.
 
 * Unidad donde se almacenarán los ficheros temporales -> `C:`.
 * Unidades que serán analizadas para realizar la foto inicial -> La unidad `C:` de nuestro equipo cliente.
+
+> En mi caso, la unidad `D` es en la que está el `Guest Additions`.
+
+![Analizar el disco C del cliente](./images/scan-drives.png)
+
 * Indicar los ficheros que serán excluidos del análisis -> Aceptaremos las opciones propuestas por el asistente por defecto.
 * Pulsamos Finish para comenzar la generación de la foto inicial del equipo.
 
 > **¡MUY IMPORTANTE!**
 > **En el tiempo comprendido entre la ejecución de este proceso y la ejecución del proceso de la foto final, es crítico ejecutar únicamente el software de instalación del paquete MSI a generar. Cualquier modificación que se haga durante este proceso, se grabará en el paquete MSI obtenido, aunque no forme parte de las modificaciones realizadas de la aplicación durante su instalación.**
 
+* Una vez que la foto inicial haya sido realizada, pulsamos `Aceptar`, y a continuación se nos mostrará otra ventana en el que seleccionaremos el fichero de instalación `firefox.exe` de la que vamos a generar el paquete MSI.
+* Comenzamos la instalación de la aplicación de firefox.exe de modo manual.
+Volvemos a ejecutar `\\172.18.24.21\WinINSTALL\Bin\Discover.exe`, para iniciar el proceso de creación de la foto final del sistema.
+
+> Esto puede durar varios minutos.
+
+**En el SERVIDOR**
+* Comprobamos que se ha creado correctamente el paquete yendo a la carpeta `E:\software24\firefox`
+
+![Comprobar en el Servidor](./images/software24-firefox24.png)
+
+**En el Cliente**
+
+* Tras comprobar, limpiamos el equipo cliente:
+  * Eliminamos el fichero `firefox.exe`
+  * Desinstalamos FirefoxDesinstalar el programa Firefox del cliente.
+
 ### 3.4. Crear nueva GPO en el servidor
 
+* Creamos la OU `maquinas24c1819` y movemos los equipos del dominio dentro de esta OU.
 
+![Equipos de maquinas24c1819](./images/maquinas24c1819.png)
 
-![](./images/.png)
+* Dentro de la OU anterior, creamos la nueva directiva `gpo_software24`.
+* Editamos la nueva directiva.
+  * Elegir el paquete: `\\172.18.24.21\software24\firefox\firefox24.msi`
+  * Configurar la instalación del paquete en modo `Asignada`
+
+![Origen del paquete](./images/instalacion-paquete.png)
+
+* En la GPO. Añadimos `Usuarios del dominio` en el `Filtrado de seguridad`.
+
+![Filtrado de seguridad](./images/ud-seguridad.png)
+
+* Abrir consola como administrador y ejecutar `gpupdate /force` para forzar las actualizaciones de la directiva.
+
+![Comprobar configuración](./images/gpo-config.png)
 
 ### 3.5. Comprobar desde los clientes
 
+* Entramos con un usuario del dominio y se debe haber instalado automáticamente el programa que hemos configurado en las directivas.
 
+> Puede tardar bastante tiempo, no desesperarse.
 
-![](./images/.png)
+* Mostrar salida de los comandos: `whoami` y `hostname`.
+
+![Comprobación final](./images/cliente-firefox.png)
