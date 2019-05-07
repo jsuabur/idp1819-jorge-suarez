@@ -96,15 +96,7 @@ Después comprobamos en el `Cliente 2` con un usuario de la OU `siths24c1819`, e
 
 ## 3. Aplicar directiva de Equipo
 
-### 3.1. Instalar en el servidor
-
-Ahora vamos a crear nuestro propio paquete de instalación MSI.
-
-**En el servidor**
-* Descargamos e instalamos el programa `WinINSTALL`.
-* Una vez instalada la aplicación hemos de asignar permisos de acceso al recurso compartido de WinINSTALL al usuario `Administrador`
-
-![WinINSTALL](./images/WinINSTALL.png)
+### 3.1. Crear recurso compartido de red
 
 * Creamos la carpeta `e:\software24`
 
@@ -134,21 +126,50 @@ Leer |         &#x2714;               |       &#x2714;
 
 ![Permisos Recurso de Red - Administradores](./images/todos-permisos-recursos.png)
 
-* Creamos la subcarpeta `E:\software24\chrome`.
+* Creamos la subcarpeta `E:\software24\firefox`.
 
-### 3.2. Crear paquete MSI
+### 3.2. Instalar en el servidor
+
+Ahora vamos a crear nuestro propio paquete de instalación MSI.
+
+* Descargamos e instalamos el programa `WinINSTALL`.
+
+![WinINSTALL](./images/WinINSTALL.png)
+
+* Una vez instalada la aplicación hemos de asignar permisos de acceso al recurso compartido de WinINSTALL al usuario `Administrador` en modo `Leer`.
+
+![Permisos Recurso de Red WinINSTALL - Administrador](./images/admin-permisos-winrec.png)
+
+### 3.3. Crear paquete MSI
+
+**En el cliente**
+
+* Entramos con el usuario administrador del dominio
+* Descargamos el instalador de Firefox.
+
+> **¡OJO!** Sólo descargar. No instalar todavía. El instalador de Chrome debe tener un tamaño de varios MBs. Si tiene pocos KBs no es el instalador, sino un programa para descargar el instalador.
+
+![Instalador Firefox](./images/instalador-firefox.png)
+
+* Iniciamos la aplicación WinINSTALL LE de forma remota ejecutando `\\172.18.24.21\WinINSTALL\Bin\Discover.exe`
+
+![Ejecutar WinINSTALL forma remota](./images/ejecutar-discover.png)
+
+* Indicamos el nombre que vamos a asociar al paquete MSI y la ruta de red donde almacenaremos el MSI, en nuestro caso:
+  * Nombre: `firefox24.msi`
+  * Ruta de red: `\\172.18.24.21\software24\firefox\firefox24.msi`
+
+![Paquete MSI Firefox](./images/firefox24.png)
+
+
+
+### 3.4. Crear nueva GPO en el servidor
 
 
 
 ![](./images/.png)
 
-### 3.3. Crear nueva GPO en el servidor
-
-
-
-![](./images/.png)
-
-### 3.4. Comprobar desde los clientes
+### 3.5. Comprobar desde los clientes
 
 
 
