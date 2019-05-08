@@ -216,7 +216,10 @@ Volvemos a ejecutar `\\172.18.24.21\WinINSTALL\Bin\Discover.exe`, para iniciar e
 
 ### 3.5. Comprobar desde los clientes
 
+**Cliente 2**
+
 * Entramos con un usuario del dominio y se debe haber instalado automáticamente el programa que hemos configurado en las directivas.
+* En mi caso, he utilizado el usuario `obiwan`
 
 > Puede tardar bastante tiempo, no desesperarse.
 
