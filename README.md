@@ -1,11 +1,11 @@
 
-# Glosario de informes (18/19)
+# Glosario de informes - IDP (18/19)
 
 ---
 
 ## Informes de ASIR
 
-Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en el Grado Superior de Administración de Sistemas Informáticos en Red.
+Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en el Grado Superior de Administración de Sistemas Informáticos en Red. Concretamente en la asignatura Implantación de Sistemas Operativos.
 
 ## Índice
 
