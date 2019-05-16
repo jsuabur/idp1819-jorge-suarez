@@ -5,9 +5,9 @@
 
 ## 1. Introducción
 
+Vamos a crear una imagen ISO de Windows 7 con instalación desatendida. El sistema operativo se instalará en la máquina sin necesidad de que un usaurio supervise la instalación ya que todos los parámetros configurables son configuradas anteriormente en un archivo que incluiremos en la ISO llamado `autounattend.xml`
 
-
-![](./images/.png)
+![Instalación desatendida](./images/instalacion-desatendida.png)
 
 ---
 
