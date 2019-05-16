@@ -15,13 +15,15 @@ Vamos a crear una imagen ISO de Windows 7 con instalación desatendida. El siste
 
 ### 2.1. Copiar ficheros
 
+* Creamos la carpeta `C:\W7`.
+* Montamos la ISO Windows 7 Enterprise de 64 bits en la unidad CD de la MV.
+* Copiamos el contenido de la unidad de CD a la carpeta `C:\W7`.
 
-
-![](./images/.png)
+![Copiar Archivos ISO Windows7](./images/copiar-w7.png)
 
 ### 2.2. Descargar e instalar WAIK
 
-
+* Descargamos el
 
 ![](./images/.png)
 
