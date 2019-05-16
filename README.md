@@ -7,6 +7,8 @@
 
 Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en el Grado Superior de Administración de Sistemas Informáticos en Red. Concretamente en la asignatura Implantación de Sistemas Operativos.
 
+---
+
 ## Índice
 
 - Primer Trimestre
@@ -33,3 +35,5 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
   - Unidad5
     - [A1 - PDC Windows Server](./TercerTrimestre/Unidad5/A1_PDC-Windows-Server)
     - [A2 - PDC Políticas o directivas de grupo](./TercerTrimestre/Unidad5/A2_PDC-politicas)
+  - Unidad6
+    - [A1 - Instalación desatendida](./TercerTrimestre/Unidad6/A1_Instalacion-desatendida)
