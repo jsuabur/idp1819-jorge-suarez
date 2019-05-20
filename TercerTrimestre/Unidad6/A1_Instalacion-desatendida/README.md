@@ -59,7 +59,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 
 <table>
   <tr>
-    <th colspan="3">**windowsPE**</th>
+    <th colspan="3">windowsPE</th>
   </tr>
   <tr>
     <th>Componente</th>
