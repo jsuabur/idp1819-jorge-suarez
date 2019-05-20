@@ -23,7 +23,7 @@ Vamos a crear una imagen ISO de Windows 7 con instalación desatendida. El siste
 
 ### 2.2. Descargar e instalar WAIK
 
-> Descargamos la ISO en la máquina real y la añadimos a la máquina de Windows7.
+> Descargamos la ISO en la máquina real y la añadimos a la máquina de Windows7 donde creamos la carpeta `C:\W7`.
 
 * Descargamos el Kit de instalación automatizada de Windows (AIK) para Windows 7.
 
@@ -47,7 +47,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   * `C:\W7\sources\install_Windows 7 ENTERPRISE.clg`.
 * Nos saldrá en la esquina inferior izquierda una lista que podemos desplegar con diferentes componentes y paquetes.
 
-![](./images/.png)
+![](./images/imagen-windows.png)
 
 ### 3.2.Crear el archivo de respuestas (autounattend.xml)
 
@@ -57,9 +57,64 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   2. Hay que añadirlos en el ciclo que se indica
   3. Posteriormente completamos los valores de los parámetros asociados.
 
+* Agregar los siguientes componentes al ciclo **windowsPE**
+
+| **amd64-Microsoft-Windows-International-Core...neutral**
+| ---
+| **Parámetros** | **Configuración**
+| InputLocale | es-ES
+| System Locale | es-ES
+| UILanguage | es-ES
+| UserLocale | es-ES
+
+```html
+<table border="1">
+  <tr>
+    <th colspan="2">
+     Celda de dos columnas
+    </th>
+  </tr>
+  <tr>
+     <td rowspan="2">
+     Celda de dos filas
+     </td>
+     <td>
+     Fila2,Columna2
+     </td>
+  </tr>
+  <tr>
+     <td>
+     Fila3,Columna2
+     </td>
+  </tr>
+</table>      
+```
+
+<table border="1">
+  <tr>
+    <th colspan="2">
+     Celda de dos columnas
+    </th>
+  </tr>
+  <tr>
+     <td rowspan="2">
+     Celda de dos filas
+     </td>
+     <td>
+     Fila2,Columna2
+     </td>
+  </tr>
+  <tr>
+     <td>
+     Fila3,Columna2
+     </td>
+  </tr>
+</table>
+
 ![](./images/.png)
 
 ### 3.3. Validar y guardar respuestas
+
 
 
 
