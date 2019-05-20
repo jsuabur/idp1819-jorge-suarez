@@ -57,57 +57,30 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   2. Hay que añadirlos en el ciclo que se indica
   3. Posteriormente completamos los valores de los parámetros asociados.
 
-* Agregar los siguientes componentes al ciclo **windowsPE**
-
-| **amd64-Microsoft-Windows-International-Core...neutral**
-| ---
-| **Parámetros** | **Configuración**
-| InputLocale | es-ES
-| System Locale | es-ES
-| UILanguage | es-ES
-| UserLocale | es-ES
-
-```html
-<table border="1">
+<table>
   <tr>
-    <th colspan="2">
-     Celda de dos columnas
-    </th>
+    <th colspan="3">**windowsPE**</th>
   </tr>
   <tr>
-     <td rowspan="2">
-     Celda de dos filas
-     </td>
-     <td>
-     Fila2,Columna2
-     </td>
+    <th>Componente</th>
+    <th colspan="2">Parámetros</th>
   </tr>
   <tr>
-     <td>
-     Fila3,Columna2
-     </td>
-  </tr>
-</table>      
-```
-
-<table border="1">
-  <tr>
-    <th colspan="2">
-     Celda de dos columnas
-    </th>
+     <td rowspan="4">amd64-Microsoft-Windows-International-Core...neutral</td>
+     <td>InputLocale</td>
+     <td>es-ES</td>
   </tr>
   <tr>
-     <td rowspan="2">
-     Celda de dos filas
-     </td>
-     <td>
-     Fila2,Columna2
-     </td>
+    <td>SystemLocale</td>
+    <td>es-ES</td>
   </tr>
   <tr>
-     <td>
-     Fila3,Columna2
-     </td>
+    <td>UILanguage</td>
+    <td>es-ES</td>
+  </tr>
+  <tr>
+    <td>UserLocale</td>
+    <td>es-ES</td>
   </tr>
 </table>
 
