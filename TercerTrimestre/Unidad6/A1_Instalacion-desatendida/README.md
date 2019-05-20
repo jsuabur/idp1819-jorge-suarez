@@ -23,9 +23,17 @@ Vamos a crear una imagen ISO de Windows 7 con instalación desatendida. El siste
 
 ### 2.2. Descargar e instalar WAIK
 
-* Descargamos el
+> Descargamos la ISO en la máquina real y la añadimos a la máquina de Windows7.
 
-![](./images/.png)
+* Descargamos el Kit de instalación automatizada de Windows (AIK) para Windows 7.
+
+![Windows Automated Instalation Kit 1](./images/descargar-waik.png)
+
+* Instalamos la herramienta `WAIK`.
+
+* Ir a `Administrador de imágenes del sistema de Windows` que se encuentra dentro de `Microsoft Windows AIK`. Ejecutar como administrador.
+
+![Administrador de imágenes del sistema de Windows](./images/waik.png)
 
 ---
 
@@ -33,13 +41,21 @@ Vamos a crear una imagen ISO de Windows 7 con instalación desatendida. El siste
 
 ### 3.1. Abrir el archivo de catálogo
 
+Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y no se puede hacer dentro de la imagen seleccionada de Windows 7.
 
+* Vamos a `Archivo` -> `Seleccionar imagen de Windows` y buscamos el archivo siguiente:
+  * `C:\W7\sources\install_Windows 7 ENTERPRISE.clg`.
+* Nos saldrá en la esquina inferior izquierda una lista que podemos desplegar con diferentes componentes y paquetes.
 
 ![](./images/.png)
 
 ### 3.2.Crear el archivo de respuestas (autounattend.xml)
 
-
+* Creamos el archivo de autorespuesta que configuraremos a continuación. Ir a `Archivo` -> `Nuevo archivo de respuesta`.
+* Para agregar componentes hacemos lo siguiente:
+  1. Buscamos los componentes en la parte izquierda.
+  2. Hay que añadirlos en el ciclo que se indica
+  3. Posteriormente completamos los valores de los parámetros asociados.
 
 ![](./images/.png)
 
