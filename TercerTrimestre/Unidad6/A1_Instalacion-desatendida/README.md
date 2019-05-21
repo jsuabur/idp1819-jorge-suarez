@@ -191,6 +191,24 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
     <th>PartitionID</th>
     <td>2</td>
   </tr>
+  <tr>
+     <td rowspan="2">amd64-Windows-Setup / ImageInstall / OSImage / InstallFrom / MetaData</td>
+     <th>Key</th>
+     <td>/IMAGE/NAME</td>
+  </tr>
+  <tr>
+    <th>Value</th>
+    <td>Windows 7 ENTERPRISE</td>
+  </tr>
+  <tr>
+     <td rowspan="3">amd64-Windows-Setup / UserData / ProductKey</td>
+     <th>Key</th>
+     <td>(serial del producto)</td>
+  </tr>
+  <tr>
+    <th>WillShowUI</th>
+    <td>OnError</td>
+  </tr>
 </table>
 
 ![](./images/.png)
