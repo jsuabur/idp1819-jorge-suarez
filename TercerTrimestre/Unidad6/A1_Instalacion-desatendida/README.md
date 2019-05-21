@@ -66,7 +66,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
     <th colspan="2">Parámetros</th>
   </tr>
   <tr>
-     <td rowspan="4">amd64-Microsoft-Windows-International-Core...neutral</td>
+     <td rowspan="4">amd64-Microsoft-Windows-International-Core-WinPE</td>
      <th>InputLocale</th>
      <td>es-ES</td>
   </tr>
@@ -322,7 +322,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 
 ### 3.3. Validar y guardar respuestas
 
-* Validamos el archivo de respuesta yendo a `herramientas` -> `validar archivo de respuesta`.
+* Validamos el archivo de respuesta yendo a `Herramientas` -> `Validar archivo de respuesta`.
 * Guardamos el archivo de respuesta yendo `Archivo` -> `Guardar archivo de respuesta como`. Elegimos la ruta `C:\W7\autounattend.xml`.
 
 ![Validar y guardar](./images/validar-guar.png)
