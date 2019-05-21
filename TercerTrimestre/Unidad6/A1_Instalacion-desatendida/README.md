@@ -75,7 +75,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
     <td>es-ES</td>
   </tr>
   <tr>
-    <td>**UILanguage**</td>
+    <th>UILanguage</th>
     <td>es-ES</td>
   </tr>
   <tr>
