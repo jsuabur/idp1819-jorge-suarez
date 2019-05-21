@@ -232,7 +232,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   </tr>
   <tr>
     <th>TimeZone</th>
-    <td>(Usar salida del comando "tzutil /g")</td>
+    <td>GMT Standard Time</td>
   </tr>
   <tr>
      <td rowspan="2">amd64-Microsoft-Windows-Shell-Setup / OOBE</td>
@@ -296,7 +296,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   </tr>
 </table>
 
-![oobeSystem](./images/oobe.png)
+![oobeSystem](./images/oobesystem.png)
 
 <table>
   <tr>
@@ -309,18 +309,18 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   <tr>
      <td>amd64-Microsoft-Windows-Shell-Setup</td>
      <th>ComputerName</th>
-     <td>jorge24w</td>
+     <td>suarez24w</td>
   </tr>
 </table>
 
-![Specialize](./images/speciali.png)
+![Specialize](./images/specialize.png)
 
 ### 3.3. Validar y guardar respuestas
 
 * Validamos el archivo de respuesta yendo a `Herramientas` -> `Validar archivo de respuesta`.
 * Guardamos el archivo de respuesta yendo `Archivo` -> `Guardar archivo de respuesta como`. Elegimos la ruta `C:\W7\autounattend.xml`.
 
-![Validar y guardar](./images/validar-guar.png)
+![Validar y guardar](./images/validar-guardar-33.png)
 
 ---
 
