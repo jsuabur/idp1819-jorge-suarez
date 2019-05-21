@@ -105,6 +105,74 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
     <th>WillWipeDisk</th>
     <td>true</td>
   </tr>
+  <tr>
+     <td rowspan="3">amd64-Windows-Setup / DiskConfiguration / Disk / CreatePartitions / CreatePartition</td>
+     <th>Order</th>
+     <td>1</td>
+  </tr>
+  <tr>
+    <th>Size</th>
+    <td>200</td>
+  </tr>
+  <tr>
+    <th>Type</th>
+    <td>primary</td>
+  </tr>
+  <tr>
+     <td rowspan="2">amd64-Windows-Setup / DiskConfiguration / Disk / CreatePartitions / CreatePartition</td>
+     <th>Order</th>
+     <td>2</td>
+  </tr>
+  <tr>
+    <th>Type</th>
+    <td>primary</td>
+  </tr>
+  <tr>
+     <td rowspan="5">amd64-Windows-Setup / DiskConfiguration / Disk / ModifyPartitions / ModifyPartition</td>
+     <th>Active</th>
+     <td>true</td>
+  </tr>
+  <tr>
+    <th>Format</th>
+    <td>NTFS</td>
+  </tr>
+  <tr>
+    <th>label</th>
+    <td>System</td>
+  </tr>
+  <tr>
+    <th>Order</th>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>PartitionID</th>
+    <td>1</td>
+  </tr>
+  <tr>
+     <td rowspan="5">amd64-Windows-Setup / DiskConfiguration / Disk / ModifyPartitions / ModifyPartition</td>
+     <th>Extend</th>
+     <td>true</td>
+  </tr>
+  <tr>
+    <th>Format</th>
+    <td>NTFS</td>
+  </tr>
+  <tr>
+    <th>label</th>
+    <td>Windows7</td>
+  </tr>
+  <tr>
+    <th>Letter</th>
+    <td>C</td>
+  </tr>
+  <tr>
+    <th>Order</th>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th>PartitionID</th>
+    <td>2</td>
+  </tr>
 </table>
 
 ![](./images/.png)
