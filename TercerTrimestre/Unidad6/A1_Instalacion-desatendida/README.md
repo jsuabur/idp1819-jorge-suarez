@@ -211,12 +211,12 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   </tr>
 </table>
 
-![](./images/.png)
+![windowsPE](./images/windows.png)
 
 * Agregamos el componente `Windows Setup` -> `LocalAccount`
   * Name: jorge
 
-![](./images/.png)
+![WindowsSetup](./images/account.png)
 
 <table>
   <tr>
@@ -301,14 +301,31 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   </tr>
 </table>
 
-![](./images/.png)
+![oobeSystem](./images/oobe.png)
+
+<table>
+  <tr>
+    <th colspan="3">specialize</th>
+  </tr>
+  <tr>
+    <th>Componente</th>
+    <th colspan="2">Parámetros</th>
+  </tr>
+  <tr>
+     <td>amd64-Microsoft-Windows-Shell-Setup</td>
+     <th>ComputerName</th>
+     <td>jorge24w</td>
+  </tr>
+</table>
+
+![Specialize](./images/speciali.png)
 
 ### 3.3. Validar y guardar respuestas
 
+* Validamos el archivo de respuesta yendo a `herramientas` -> `validar archivo de respuesta`.
+* Guardamos el archivo de respuesta yendo `Archivo` -> `Guardar archivo de respuesta como`. Elegimos la ruta `C:\W7\autounattend.xml`.
 
-
-
-![](./images/.png)
+![Validar y guardar](./images/validar-guar.png)
 
 ---
 
@@ -325,3 +342,21 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 
 
 ![](./images/.png)
+
+---
+
+## 6. Crear la ISO
+
+
+
+![](./images/.png)
+
+---
+
+## 7. Comprobamos la ISO
+
+
+
+![](./images/.png)
+
+---
