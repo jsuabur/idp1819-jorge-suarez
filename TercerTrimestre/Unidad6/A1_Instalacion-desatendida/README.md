@@ -213,6 +213,36 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 
 ![](./images/.png)
 
+* Agregamos el componente `Windows Setup` -> `LocalAccount`
+  * Name: jorge
+
+![](./images/.png)
+
+<table>
+  <tr>
+    <th colspan="3">oobeSystem</th>
+  </tr>
+  <tr>
+    <th>Componente</th>
+    <th colspan="2">Parámetros</th>
+  </tr>
+  <tr>
+     <td rowspan="3">amd64-Microsoft-Windows-Shell-Setup</td>
+     <th>RegisteredOrganization</th>
+     <td>Contoso</td>
+  </tr>
+  <tr>
+    <th>RegisteredOwner</th>
+    <td>DemoUser</td>
+  </tr>
+  <tr>
+    <th>TimeZone</th>
+    <td>(Usar salida del comando `tzutil /g`)</td>
+  </tr>
+</table>
+
+![](./images/.png)
+
 ### 3.3. Validar y guardar respuestas
 
 
