@@ -67,11 +67,11 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   </tr>
   <tr>
      <td rowspan="4">amd64-Microsoft-Windows-International-Core...neutral</td>
-     <td>InputLocale</td>
+     <th>InputLocale</th>
      <td>es-ES</td>
   </tr>
   <tr>
-    <td>SystemLocale</td>
+    <th>SystemLocale</th>
     <td>es-ES</td>
   </tr>
   <tr>
@@ -79,7 +79,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
     <td>es-ES</td>
   </tr>
   <tr>
-    <td>UserLocale</td>
+    <th>UserLocale</th>
     <td>es-ES</td>
   </tr>
 </table>
