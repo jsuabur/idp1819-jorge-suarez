@@ -211,12 +211,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   </tr>
 </table>
 
-![windowsPE](./images/windows.png)
-
-* Agregamos el componente `Windows Setup` -> `LocalAccount`
-  * Name: jorge
-
-![WindowsSetup](./images/account.png)
+![windowsPE](./images/windowspe.png)
 
 <table>
   <tr>
