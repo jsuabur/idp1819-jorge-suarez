@@ -82,6 +82,15 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
     <th>UserLocale</th>
     <td>es-ES</td>
   </tr>
+  <tr>
+     <td rowspan="2">amd64-Microsoft-Windows-International-Core/SetupUILanguage</td>
+     <th>UILanguage</th>
+     <td>es-ES</td>
+  </tr>
+  <tr>
+    <th>WillShowUI</th>
+    <td>OnError</td>
+  </tr>
 </table>
 
 ![](./images/.png)
