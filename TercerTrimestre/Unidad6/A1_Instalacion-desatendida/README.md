@@ -173,6 +173,24 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
     <th>PartitionID</th>
     <td>2</td>
   </tr>
+  <tr>
+     <td rowspan="2">amd64-Windows-Setup / ImageInstall / OSImage</td>
+     <th>InstallToAvailablePartition</th>
+     <td>false</td>
+  </tr>
+  <tr>
+    <th>WillShowUI</th>
+    <td>OnError</td>
+  </tr>
+  <tr>
+     <td rowspan="2">amd64-Windows-Setup / ImageInstall / OSImage / InstallTo</td>
+     <th>DiskID</th>
+     <td>0</td>
+  </tr>
+  <tr>
+    <th>PartitionID</th>
+    <td>2</td>
+  </tr>
 </table>
 
 ![](./images/.png)
