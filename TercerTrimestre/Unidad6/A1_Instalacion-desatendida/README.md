@@ -149,7 +149,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
     <td>1</td>
   </tr>
   <tr>
-     <td rowspan="5">amd64-Windows-Setup / DiskConfiguration / Disk / ModifyPartitions / ModifyPartition</td>
+     <td rowspan="6">amd64-Windows-Setup / DiskConfiguration / Disk / ModifyPartitions / ModifyPartition</td>
      <th>Extend</th>
      <td>true</td>
   </tr>
