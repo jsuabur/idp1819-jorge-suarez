@@ -237,7 +237,67 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
   </tr>
   <tr>
     <th>TimeZone</th>
-    <td>(Usar salida del comando `tzutil /g`)</td>
+    <td>(Usar salida del comando "tzutil /g")</td>
+  </tr>
+  <tr>
+     <td rowspan="2">amd64-Microsoft-Windows-Shell-Setup / OOBE</td>
+     <th>HideEULAPage</th>
+     <td>true</td>
+  </tr>
+  <tr>
+    <th>NetworkLocation</th>
+    <td>Home</td>
+  </tr>
+  <tr>
+     <td rowspan="4">amd64-Microsoft-Windows-Shell-Setup / UserAccount /LocalAccounts / LocalAccount</td>
+     <th>Description</th>
+     <td>Administrador</td>
+  </tr>
+  <tr>
+    <th>DisplayName</th>
+    <td>DemoUser</td>
+  </tr>
+  <tr>
+    <th>Group</th>
+    <td>administrators</td>
+  </tr>
+  <tr>
+    <th>Name</th>
+    <td>DemoUser</td>
+  </tr>
+  <tr>
+     <td rowspan="4">amd64-Microsoft-Windows-Shell-Setup / OEMInformation</td>
+     <th>HelpCustomized</th>
+     <td>false</td>
+  </tr>
+  <tr>
+    <th>Manufacturer</th>
+    <td>Contoso</td>
+  </tr>
+  <tr>
+    <th>SupportHours</th>
+    <td>24/7</td>
+  </tr>
+  <tr>
+    <th>SupportURL</th>
+    <td>geeks.ms/blogs/checho</td>
+  </tr>
+  <tr>
+     <td rowspan="4">amd64-Microsoft-Windows-International-Core...neutral</td>
+     <th>InputLocale</th>
+     <td>es-ES</td>
+  </tr>
+  <tr>
+    <th>SystemLocale</th>
+    <td>es-ES</td>
+  </tr>
+  <tr>
+    <th>UILanguage</th>
+    <td>es-ES</td>
+  </tr>
+  <tr>
+    <th>UserLocale</th>
+    <td>es-ES</td>
   </tr>
 </table>
 
