@@ -3,17 +3,9 @@
 
 ---
 
-## 1. Introducción
+## 1. Instalar WAIK
 
-Vamos a crear una imagen ISO de Windows 7 con instalación desatendida. El sistema operativo se instalará en la máquina sin necesidad de que un usaurio supervise la instalación ya que todos los parámetros configurables son configuradas anteriormente en un archivo que incluiremos en la ISO llamado `autounattend.xml`
-
-![Instalación desatendida](./images/instalacion-desatendida.png)
-
----
-
-## 2. Instalar WAIK
-
-### 2.1. Copiar ficheros
+### 1.1. Copiar ficheros
 
 * Creamos la carpeta `C:\W7`.
 * Montamos la ISO Windows 7 Enterprise de 64 bits en la unidad CD de la MV.
@@ -21,7 +13,7 @@ Vamos a crear una imagen ISO de Windows 7 con instalación desatendida. El siste
 
 ![Copiar Archivos ISO Windows7](./images/copiar-w7.png)
 
-### 2.2. Descargar e instalar WAIK
+### 1.2. Descargar e instalar WAIK
 
 > Descargamos la ISO en la máquina real y la añadimos a la máquina de Windows7 donde creamos la carpeta `C:\W7`.
 
@@ -37,9 +29,9 @@ Vamos a crear una imagen ISO de Windows 7 con instalación desatendida. El siste
 
 ---
 
-## 3. Crear fichero de respuestas
+## 2. Crear fichero de respuestas
 
-### 3.1. Abrir el archivo de catálogo
+### 2.1. Abrir el archivo de catálogo
 
 Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y no se puede hacer dentro de la imagen seleccionada de Windows 7.
 
@@ -49,7 +41,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 
 ![](./images/imagen-windows.png)
 
-### 3.2.Crear el archivo de respuestas (autounattend.xml)
+### 2.2.Crear el archivo de respuestas (autounattend.xml)
 
 * Creamos el archivo de autorespuesta que configuraremos a continuación. Ir a `Archivo` -> `Nuevo archivo de respuesta`.
 * Para agregar componentes hacemos lo siguiente:
@@ -315,7 +307,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 
 ![Specialize](./images/specialize.png)
 
-### 3.3. Validar y guardar respuestas
+### 2.3. Validar y guardar respuestas
 
 * Validamos el archivo de respuesta yendo a `Herramientas` -> `Validar archivo de respuesta`.
 * Guardamos el archivo de respuesta yendo `Archivo` -> `Guardar archivo de respuesta como`. Elegimos la ruta `C:\W7\autounattend.xml`.
@@ -324,34 +316,66 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 
 ---
 
-## 4. Configurar aplicaciones
+## 3. Configurar aplicaciones
 
-
+* Crear la carpeta `C:\W7\applications`. Dentro pondremos un programa de instalación MSI. En mi caso añadí el Firefox.
 
 ![](./images/.png)
+
+* Para que la instación automática de las aplicaciones que queramos al iniciarse el sistema después de su instalación deberemos agregar el componente:
+
+<table>
+    <th>Componente</th>
+    <th colspan="2">Parámetros</th>
+  </tr>
+  <tr>
+     <td rowspan="4">amd64-Microsoft-Windows-Shell-Setup</td>
+     <th>CommandLine</th>
+     <td>D:\applications\ejecutable.msi</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Navegador web Mozilla Firefox</td>
+  </tr>
+  <tr>
+    <th>Order</th>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>RequiresUserInput</th>
+    <td>false</td>
+  </tr>
+</table>
 
 ---
 
-## 5. Validar y guardar
+## 4. Validar y guardar
 
+* Validamos el archivo de respuesta yendo a `Herramientas` -> `Validar archivo de respuesta`.
+* Guardamos el archivo de respuesta yendo `Archivo` -> `Guardar archivo de respuesta`. Elegimos la ruta `C:\W7\autounattend.xml`.
 
-
-![](./images/.png)
-
----
-
-## 6. Crear la ISO
-
-
-
-![](./images/.png)
+![Programa de instalación](./images/firefox24.png)
 
 ---
 
-## 7. Comprobamos la ISO
+## 5. Crear la ISO
 
+* Creamos la carpeta `C:\W7desatendido`.
+* Para crear la ISO, abrimos `Línea de comandos de las herramientas de implementación` y se nos abrirá una consola de comandos.
 
+![W7desatendido](./images/w7desatendido.png)
 
-![](./images/.png)
+* Escribimos `oscdimg -n -m -bC:\W7\boot\etfsboot.com C:\W7 c:\W7desatendido\W7desatendido.iso`.
+* Si todo es correcto comenzará la creación de nuestra ISO de Windows 7 ENTERPRISE desatendida.
+
+![Creando la ISO W7 desatendido](./images/iso-w7des.png)
+
+---
+
+## 6. Comprobamos la ISO
+
+* Al terminar probamos a instalar el SO con la nueva ISO en una máquina virtual.
+
+![Máquina Virtual con ISO desatendida](./images/iso-mv.png)
 
 ---
