@@ -320,9 +320,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 
 * Crear la carpeta `C:\W7\applications`. Dentro pondremos un programa de instalación MSI. En mi caso añadí el Firefox.
 
-![](./images/.png)
-
-* Para que la instación automática de las aplicaciones que queramos al iniciarse el sistema después de su instalación deberemos agregar el componente:
+* Para que la instación automática de las aplicaciones que queramos al iniciarse el sistema después de su instalación deberemos agregar el componente a `autounattend.xml`:
 
 <table>
     <th>Componente</th>
