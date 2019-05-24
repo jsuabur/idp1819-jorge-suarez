@@ -37,3 +37,4 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
     - [A2 - PDC Políticas o directivas de grupo](./TercerTrimestre/Unidad5/A2_PDC-politicas)
   - Unidad6
     - [A1 - Instalación desatendida](./TercerTrimestre/Unidad6/A1_Instalacion-desatendida)
+    - [A2 - Servidor de actualizaciones](./TercerTrimestre/Unidad6/A2_Servidor-de-actualizaciones)
