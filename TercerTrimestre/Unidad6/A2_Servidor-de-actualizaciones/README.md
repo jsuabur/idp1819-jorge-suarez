@@ -61,23 +61,29 @@
 
 ![](./images/.png)
 
-### 3.3.
+### 3.3. Comprobación
 
 
 
 ![](./images/.png)
 
-### 3.4.
+### 3.4. Servicio en el cliente
 
 
 
 ![](./images/.png)
 
-### 3.5.
+### 3.5. En el caso de tener PROBLEMAS
 
+**Sólo en caso de tener problemas de conexión del cliente WSUS con el servidor.**
 
+* Descargar y ejecutar Herramienta de diagnóstico WSUS desde línea de comandos.
+* Algunos problemas de cliente WSUS se solucionan con la siguiente herramienta:
+  * Descargar herramienta Solucionador WSUS
+  * https://support.microsoft.com/es-es/help/10164/fix-windows-update-errors
+* `sfc /scannow`, repara archivos dañados.
 
-![](./images/.png)
+![Herramienta diagnostico WSUS](./images/herram-wsus.png)
 
 ---
 
