@@ -83,6 +83,7 @@
   * https://support.microsoft.com/es-es/help/10164/fix-windows-update-errors
 * `sfc /scannow`, repara archivos dañados.
 
+> Imagen de EJEMPLO
 ![Herramienta diagnostico WSUS](./images/herram-wsus.png)
 
 ---
