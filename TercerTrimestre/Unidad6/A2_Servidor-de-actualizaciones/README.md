@@ -38,7 +38,7 @@ Vamos a necesitar 2 MVs.
 
     * Añadimos un disco extra de 10GB y lo configuramos en la unidad `E:`.
 
-    ![Disco Extra Windows Server 2008](./images/disco-server.png)
+  ![Disco Extra Windows Server 2008](./images/disco-server.png)
 
 * 1 MV Windows 7. La configuramos como en la foto.
 
