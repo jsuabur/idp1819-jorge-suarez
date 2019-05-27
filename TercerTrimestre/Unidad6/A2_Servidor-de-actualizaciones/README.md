@@ -32,11 +32,11 @@ Ventajas de tener un servidor WSUS que almacena y distribuye las actualizaciones
 ### 1.2. Preparativos
 
 Vamos a necesitar 2 MVs.
-  * 1 MV Windows Server 2008. La configuramos como en la foto.
+* 1 MV Windows Server 2008. La configuramos como en la foto.
 
   ![Configuración Windows Server 2008](./images/conf-server.png)
 
-    * Añadimos un disco extra de 10GB y lo configuramos en la unidad `E:`.
+  * Añadimos un disco extra de 10GB y lo configuramos en la unidad `E:`.
 
   ![Disco Extra Windows Server 2008](./images/disco-server.png)
 
