@@ -20,7 +20,6 @@ Ventajas de tener un servidor WSUS que almacena y distribuye las actualizaciones
 * El administrador del servidor aprueba y prioriza las actualizaciones.
 * El cliente se conecta a WSUS e instala los paquetes usando Windows Update.
 
-
 > **Resumen:**
 >
 > * WSUS proporciona control a la hora de aprobar y distribuir actualizaciones de Microsoft entre sus ordenadores clientes.
@@ -33,10 +32,13 @@ Ventajas de tener un servidor WSUS que almacena y distribuye las actualizaciones
 ### 1.2. Preparativos
 
 Vamos a necesitar 2 MVs.
-  * 1 MV Windows Server 2008.
+  * 1 MV Windows Server 2008. La configuramos como en la foto.
+
+  ![Configuración Windows Server 2008](./images/conf-server.png)
+
     * Añadimos un disco extra de 10GB y lo configuramos en la unidad `E:`.
 
-![Configuración Windows Server 2008](./images/windows-server.png)
+    ![Disco Extra Windows Server 2008](./images/disco-server.png)
 
 * 1 MV Windows 7. La configuramos como en la foto.
 
@@ -47,7 +49,7 @@ Vamos a necesitar 2 MVs.
 ## 2. Servidor WSUS
 
 **MV Windows Server**
-> Todo el apartado 2 (2.1. / 2.2. / 2.3. / 2.4.) lo hacemos con el Windows Server.
+> Todo este apartado (2.1. / 2.2. / 2.3. / 2.4.) lo haremos con el Windows Server.
 
 ### 2.1. Teoría
 
@@ -63,17 +65,32 @@ Consideraciones a tener en cuenta:
 
 ### 2.2. Instalación del servidor
 
-  * Nos aseguramos de que tenemos la instalación en estado `No ilegal`.
-  * Utilizaremos la forma más sencilla para instalar el software WSUS, que es usar la propia herramienta de administrar del servidor Windows Server.
-    * `Administrar el servidor` -> `Roles` -> `Agregar Roles` - > `WSUS`.
+* Nos aseguramos de que tenemos la instalación en estado `No ilegal`.
+* Utilizaremos la forma más sencilla para instalar el software WSUS, que es usar la propia herramienta de administrar del servidor Windows Server.
+  * `Administrar el servidor` -> `Roles` -> `Agregar Roles` - > `WSUS`.
 
 ![Administrar el servidor](./images/server-wsus.png)
 
 ### 2.3. Configuración del servidor
 
+En WS2008 vamos a `WSUS` -> `Opciones` -> `Asistente de configuración WSUS`, para ir a la configuración de WSUS.
 
+Configuramos servidor WSUS con los siguientes parámetros:
+* No usar base de datos
+* Almacenar actualizaciones en `E:actualizaciones24`.
+* Selección de Productos: Para minizar descargas es conveniente hacer una selección de idiomas y de productos concretos para actualizar. Elegir:
+  * Idioma: `Español` e `Inglés`.
+  * Producto: `Windows7`.
+  * Tipo de actualización: `Actualizaciones críticas, de seguridad, etc.`.
+* Fuente de sincronización: `Microsoft` (Windows Update).
+* Elegimos sincronización manual en lugar de automática. Elegimos manual para hacer nuestras pruebas de clase. Cuando estemos en la empresa elegiremos sincronización automática.
 
 ![](./images/.png)
+
+Aprobamos algunas actualizaciones del Windows 7, en el servidor WSUS:
+  * Ir a `Administración del servidor` -> `Windows Server` -> `Update Services` -> `Actualizaciones`, seleccionamos 3 actualizaciones críticas y las aprobamos.
+
+![Actualizacion Windows7](./images/act-windows.png)
 
 ### 2.4. Servicio con inicio automático
 
