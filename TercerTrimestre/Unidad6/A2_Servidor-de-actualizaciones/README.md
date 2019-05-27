@@ -33,7 +33,7 @@ Ventajas de tener un servidor WSUS que almacena y distribuye las actualizaciones
 ### 1.2. Preparativos
 
 Vamos a necesitar 2 MVs.
-  * 1 MV Windows Server 2008. La configuramos como en la foto.
+  * 1 MV Windows Server 2008.
     * Añadimos un disco extra de 10GB y lo configuramos en la unidad `E:`.
 
 ![Configuración Windows Server 2008](./images/windows-server.png)
@@ -47,6 +47,7 @@ Vamos a necesitar 2 MVs.
 ## 2. Servidor WSUS
 
 **MV Windows Server**
+> Todo el apartado 2 (2.1. / 2.2. / 2.3. / 2.4.) lo hacemos con el Windows Server.
 
 ### 2.1. Teoría
 
@@ -62,9 +63,11 @@ Consideraciones a tener en cuenta:
 
 ### 2.2. Instalación del servidor
 
+  * Nos aseguramos de que tenemos la instalación en estado `No ilegal`.
+  * Utilizaremos la forma más sencilla para instalar el software WSUS, que es usar la propia herramienta de administrar del servidor Windows Server.
+    * `Administrar el servidor` -> `Roles` -> `Agregar Roles` - > `WSUS`.
 
-
-![](./images/.png)
+![Administrar el servidor](./images/server-wsus.png)
 
 ### 2.3. Configuración del servidor
 
