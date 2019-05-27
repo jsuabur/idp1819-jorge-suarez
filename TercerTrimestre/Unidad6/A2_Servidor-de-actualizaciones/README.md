@@ -73,7 +73,7 @@ Consideraciones a tener en cuenta:
 
 ### 2.3. Configuración del servidor
 
-En WS2008 vamos a `WSUS` -> `Opciones` -> `Asistente de configuración WSUS`, para ir a la configuración de WSUS.
+En WS2008 vamos a `WSUS` -> `Opciones` -> `Asistente para la configuración del servidor WSUS`, para ir a la configuración de WSUS.
 
 Configuramos servidor WSUS con los siguientes parámetros:
 * No usar base de datos
