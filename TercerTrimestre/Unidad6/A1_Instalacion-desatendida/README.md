@@ -46,7 +46,7 @@ Ahora crearemos un catálogo que es el que nos dirá que tiene, que se puede  y 
 * Creamos el archivo de autorespuesta que configuraremos a continuación. Ir a `Archivo` -> `Nuevo archivo de respuesta`.
 * Para agregar componentes hacemos lo siguiente:
   1. Buscamos los componentes en la parte izquierda.
-  2. Hay que añadirlos en el ciclo que se indica
+  2. Hay que añadirlos en el ciclo que se indica.
   3. Posteriormente completamos los valores de los parámetros asociados.
 
 <table>
