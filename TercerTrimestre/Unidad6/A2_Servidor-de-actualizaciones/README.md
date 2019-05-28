@@ -80,23 +80,29 @@ Configuramos servidor WSUS con los siguientes parámetros:
 * Almacenar actualizaciones en `E:actualizaciones24`.
 * Selección de Productos: Para minizar descargas es conveniente hacer una selección de idiomas y de productos concretos para actualizar. Elegir:
   * Idioma: `Español` e `Inglés`.
+
+![Idioma del producto](./images/idioma-wsus.png)
+
   * Producto: `Windows7`.
-  * Tipo de actualización: `Actualizaciones críticas, de seguridad, etc.`.
+  * Tipo de actualización: `Actualizaciones críticas` y `Actualizaciones de seguridad`.
 * Fuente de sincronización: `Microsoft` (Windows Update).
 * Elegimos sincronización manual en lugar de automática. Elegimos manual para hacer nuestras pruebas de clase. Cuando estemos en la empresa elegiremos sincronización automática.
+* Iniciar sincronización inicial.
 
-![](./images/.png)
+![Iniciamos sincronización inicial](./images/sincr-inicial.png)
 
 Aprobamos algunas actualizaciones del Windows 7, en el servidor WSUS:
-  * Ir a `Administración del servidor` -> `Windows Server` -> `Update Services` -> `Actualizaciones`, seleccionamos 3 actualizaciones críticas y las aprobamos.
+* Ir a `Administración del servidor` -> `Windows Server Update Services` -> `Update Services` -> `Actualizaciones` -> `Actualizaciones críticas`.
+  * Seleccionamos 3 actualizaciones y las aprobamos.
+* `Windows Server Update Services` -> `Update Services` -> `Sincronizar` para conectarnos con los servidores de Microsoft y comenzar la descarga de los paquetes aprobados.
 
 ![Actualizacion Windows7](./images/act-windows.png)
 
 ### 2.4. Servicio con inicio automático
 
+Nos aseguramos en `Administración` -> `Servicios` que el servicio WSUS tiene configurado inicio automático al arrancar la máquina.
 
-
-![](./images/.png)
+![Inicio automático](./images/ini-auto.png)
 
 ---
 
@@ -104,7 +110,11 @@ Aprobamos algunas actualizaciones del Windows 7, en el servidor WSUS:
 
 ### 3.1. Teoría
 
-
+Parámetros de configuración en el cliente:
+* Máquina Servidor WSUS
+* Frecuencia, notificaciones, grupo asignado.
+* Reinicio: automático / confirmación / retrasar
+* Administración de energía: Iniciar PC si está apagado para ejecutar actualización.
 
 ![](./images/.png)
 
