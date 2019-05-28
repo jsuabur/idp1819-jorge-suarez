@@ -142,7 +142,7 @@ Parámetros de configuración en el cliente:
 
 * Descargar y ejecutar Herramienta de diagnóstico WSUS desde línea de comandos.
 * Algunos problemas de cliente WSUS se solucionan con la siguiente herramienta:
-  * Descargar herramienta Solucionador WSUS
+  * Descargar herramienta Solucionador WSUS.
   * https://support.microsoft.com/es-es/help/10164/fix-windows-update-errors
 * `sfc /scannow`, repara archivos dañados.
 
