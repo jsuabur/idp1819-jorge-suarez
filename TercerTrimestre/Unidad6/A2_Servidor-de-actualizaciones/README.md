@@ -42,7 +42,7 @@ Vamos a necesitar 2 MVs.
 
 * 1 MV Windows 7. La configuramos como en la foto.
 
-![Configuración Windows7](./images/windows.png)
+![Configuración Windows7](./images/conf-windows.png)
 
 ---
 
@@ -137,13 +137,17 @@ Para comprobarlo, hay varias formas:
 
 **Comprobación 1**
 
-
+* Ejecutamos la siguiente consulta de registro en línea de comandos:
+  * `reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate`
+* Se muestran parámetros de configuración del servidor WSUS en pantalla
 
 ![Comprobación 1](./images/comp1-33.png)
 
 **Comprobación 2**
 
-
+* Vamos a `Inicio` -> `Ejecutar` el programa `rsop.msc` o `gpedit.msc`.
+* Vamos a `Configuración de Equipo` > `Plantillas Administrativas` > `Componentes de Windows` > `Windows Update`.
+  * Comprobamos que el valor de `Especificar la ubicación del servicio Windows Update en la intranet` apunta a nuestro servidor WSUS.
 
 ![Comprobación 2](./images/comp1-33.png)
 
