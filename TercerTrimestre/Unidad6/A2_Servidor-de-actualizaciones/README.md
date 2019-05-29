@@ -120,15 +120,44 @@ Parámetros de configuración en el cliente:
 
 ### 3.2. Configurar el cliente
 
-**Configurar sin PDC**
+#### Configurar sin PDC
 
-![](./images/.png)
+**Configuración usando Políticas de Grupo (Local)**
+
+* En `Especificar la ubicación del servicio Windows Update en la intranet`:
+  * En WS2008 se usan los puertos 80/443. Entonces hay que poner `http://172.18.24.22`, en mi ejemplo.
+* Ejecutar `gpupdate /force` en una consola como administrador. Este comando fuerza a que se apliquen los cambios realizados en las directivas.
+
+![Habilitar el servidor](./images/habilitar.png)
 
 ### 3.3. Comprobación
 
+Para comprobarlo, hay varias formas:
+> Aquí pondré las 4 que conozco más una foto aclaratoria en cada una.
+
+**Comprobación 1**
 
 
-![](./images/.png)
+
+![Comprobación 1](./images/comp1-33.png)
+
+**Comprobación 2**
+
+
+
+![Comprobación 2](./images/comp1-33.png)
+
+**Comprobación 3**
+
+
+
+![Comprobación 3](./images/comp1-33.png)
+
+**Comprobación 4**
+
+
+
+![Comprobación 4](./images/comp1-33.png)
 
 ### 3.4. Servicio en el cliente
 
