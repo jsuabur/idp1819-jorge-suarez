@@ -116,8 +116,6 @@ Parámetros de configuración en el cliente:
 * Reinicio: automático / confirmación / retrasar
 * Administración de energía: Iniciar PC si está apagado para ejecutar actualización.
 
-![](./images/.png)
-
 ### 3.2. Configurar el cliente
 
 #### Configurar sin PDC
@@ -132,8 +130,7 @@ Parámetros de configuración en el cliente:
 
 ### 3.3. Comprobación
 
-Para comprobarlo, hay varias formas:
-> Aquí pondré las 4 que conozco más una foto aclaratoria en cada una.
+Para comprobarlo, hay varias formas, aunque yo utilizaré la siguiente:
 
 **Comprobación 1**
 
@@ -141,33 +138,21 @@ Para comprobarlo, hay varias formas:
   * `reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate`
 * Se muestran parámetros de configuración del servidor WSUS en pantalla
 
-![Comprobación 1](./images/comp1-33.png)
-
-**Comprobación 2**
-
-* Vamos a `Inicio` -> `Ejecutar` el programa `rsop.msc` o `gpedit.msc`.
-* Vamos a `Configuración de Equipo` > `Plantillas Administrativas` > `Componentes de Windows` > `Windows Update`.
-  * Comprobamos que el valor de `Especificar la ubicación del servicio Windows Update en la intranet` apunta a nuestro servidor WSUS.
-
-![Comprobación 2](./images/comp1-33.png)
-
-**Comprobación 3**
-
-
-
-![Comprobación 3](./images/comp1-33.png)
-
-**Comprobación 4**
-
-
-
-![Comprobación 4](./images/comp1-33.png)
+![Comprobación](./images/comp1-33.png)
 
 ### 3.4. Servicio en el cliente
 
+* Cuando cambiamos la configuración, hay que reiniciar Windows Update en el cliente:
 
+* `net stop wuauserv` para parar el servicio de Windows Update.
+* `net start wuauserv` para iniciar el servicio de Windows Update.
 
-![](./images/.png)
+Invocaremos los siguientes comandos para que Windows Update conecte con el servidor:
+
+* `wuauclt.exe /detectnow`
+* `wuauclt /a`
+
+![Detectar equipo](./images/detectar.png)
 
 ### 3.5. En el caso de tener PROBLEMAS
 
@@ -188,6 +173,7 @@ Para comprobarlo, hay varias formas:
 
 ### 4.1. Auditar desde el servidor
 
+* Vamos a la MV del servidor WSUS.
+* Ir a `Herramientas` -> `WSUS` -> `Equipos`.
 
-
-![](./images/.png)
+![Actualizaciones](./images/actualizar.png)
